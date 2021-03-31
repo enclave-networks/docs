@@ -12,20 +12,20 @@ theme:
     #- navigation.top
     #- toc.integrate
 
-  # 404 page
   static_templates:
     - 404.html
 
-  # Necessary for search to work properly
+  # necessary for search to work properly
   include_search_page: false
   search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
+  # default values, taken from mkdocs_theme.yml
   language: en
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
   icon:
     logo: logo
 
@@ -40,11 +40,15 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/enclave-networks/
 
+google_analytics:
+  - G-KZSMYSG7EP
+  - auto
+
 nav:
   - Home:
     - Documentation: index.md
-    - Community: community.md
-    - Glossary: glossary.md
+#    - Community: community.md
+#    - Glossary: glossary.md
 
   - Handbook:
     - Getting Started: handbook/quick-start.md
@@ -52,8 +56,8 @@ nav:
     - Installation:
       - Windows: handbook/install/windows.md
       - Linux:
-        - Ubuntu: handbook/install/debian.md
-        - CentOS/RHEL: handbook/install/rhel.md
+        - Ubuntu / Debian: handbook/install/ubuntu.md
+        - CentOS / RHEL: handbook/install/rhel.md
         - Fedora: handbook/install/fedora.md
         - Amazon Linux: handbook/install/amazon-linux.md
         - Arch Linux: handbook/install/arch.md
@@ -98,11 +102,11 @@ nav:
         - Agent telemetry: handbook/footnotes.md
 
       - Security:
-        - Threat model: handbook/mathjax.md
-        - Security considerations: handbook/icons-emojis.md
-        - Certificates: handbook/variables.md
-        - Encryption: handbook/images.md
-        - Key management: handbook/lists.md
+        - Threat model: handbook/threat-model.md
+        - Security considerations: handbook/security-considerations.md
+        - Certificates: handbook/certificates.md
+        - Encryption: handbook/encryption.md
+        - Key management: handbook/key-management.md
 
       - Configuration Files:
         - Windows: handbook/configs.md
@@ -128,8 +132,3 @@ nav:
       - Frequently asked questions: support/billing.md
     - Account:
       - Ownership, transfer and closure: support/account.md
-
-# Google Analytics
-google_analytics:
-  - UA-244950-12
-  - auto

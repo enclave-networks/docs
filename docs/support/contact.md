@@ -11,12 +11,12 @@ Share feedback with us (twitter / email) or questions about roadmap (support@enc
 
 ## How to report a security issue
 
-We want to keep Enclave safe for everyone. If you've discovered a security vulnerability in Enclave, we appreciate your help in disclosing it to us in a responsible manner.
+We want to keep Enclave safe for everyone. If you've discovered a security vulnerability in Enclave, we appreciate your help in disclosing it to us in a responsible manner. Please email us at [security@enclave.io](mailto:security@enclave.io).
 
+<!--- 
 #### Responsible Disclosure of Security Vulnerabilities
 
 ##### Safe Harbor Terms
 
 See https://docs.github.com/en/github/site-policy/github-bug-bounty-program-legal-safe-harbor
-
-Email us at [security@enclave.io](mailto:security@enclave.io)
+--->

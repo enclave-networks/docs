@@ -3,7 +3,7 @@
 In this guide we will start your journey with Enclave by showing you how to enrol your **first two** systems. We will show you how to use the portal with tags and policy to **centrally manage** the connectivity between them.
 
 
-![Quick start steps](/img/quick-start/steps.png)
+![Quick start steps](/images/quick-start/steps.png)
 
 ## Prerequisites
 
@@ -84,7 +84,7 @@ Tags are free-form text labels which can be attached to one or more systems in y
 
 The following graphic illustrates how a single tag might apply to several individual systems, in this example systems called `gitlab`, `teamcity` and a third system called `repo` are all members of the tag `org.build.ci-cd`.
 
-![Illustration of how tags are applied to systems](/img/quick-start/tags.png)
+![Illustration of how tags are applied to systems](/images/quick-start/tags.png)
 
 > **Production use:** This guide uses a `org.quickstart` tag. You can (and should) create your own Tags for use in production. To learn more about how to create and manage Tags in your organisation, please refer to the [Policy and Tags](/handbook/tags-and-policies.md) section of this handbook. 
 
@@ -94,7 +94,7 @@ The following graphic illustrates how a single tag might apply to several indivi
 4. Select the **second** system you enrolled to open the details pane and use the pencil icon (top-right of the pane) to enter Edit mode.
 5. Give your second system a recognisable description (_e.g. Test Server_) and in the tags section type `org.quickstart` again. Press Enter, click Save and close the details pane.
 
-![Illustration of how tags are applied to systems](/img/quick-start/system-details-pane.png)
+![Illustration of how tags are applied to systems](/images/quick-start/system-details-pane.png)
 
 ---
 
@@ -109,7 +109,7 @@ Policies determine which systems can connect to each other via Enclave. Each pol
 3. Save the policy.
 4. Check connectivity.
 
-![Illustration of how tags are applied to systems](/img/quick-start/create-policy.png)
+![Illustration of how tags are applied to systems](/images/quick-start/create-policy.png)
 
 
 ### Next Steps
