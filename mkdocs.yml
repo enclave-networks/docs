@@ -4,13 +4,13 @@ theme:
   name: 'material'
 
   features:
-    #- navigation.tracking
     - navigation.sections
+    - navigation.tabs
+    #- navigation.tracking
     #- navigation.expand
     #- navigation.indexes
     #- navigation.top
     #- toc.integrate
-    #- navigation.tabs
 
   # 404 page
   static_templates:
@@ -29,7 +29,110 @@ theme:
   icon:
     logo: logo
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/enclave-networks
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/enclavenetworks/enclave
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/enclavenetworks
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/enclave-networks/
+
+nav:
+  - Home:
+    - Documentation: index.md
+    - Community: community.md
+    - Glossary: glossary.md
+
+  - Handbook:
+    - Getting Started: handbook/quick-start.md
+
+    - Installation:
+      - Windows: handbook/install/windows.md
+      - Linux:
+        - Ubuntu: handbook/install/debian.md
+        - CentOS/RHEL: handbook/install/rhel.md
+        - Fedora: handbook/install/fedora.md
+        - Amazon Linux: handbook/install/amazon-linux.md
+        - Arch Linux: handbook/install/arch.md
+        - Raspbian: handbook/install/raspbian.md
+        - Docker: handbook/install/docker.md
+        - Kubernetes: handbook/install/kubernetes.md
+        - Synology NAS: handbook/install/synology-nas.md
+      - Running Enclave:
+        - As a service: handbook/creating-your-site.md
+        - Interactivley: handbook/publishing-your-site.md
+
+    - Core Concepts:
+      - Principles: handbook/princples.md
+      - Architecture: handbook/architecture.md
+      - Endpoint management: handbook/endpoint-management.md
+      - Enrolment keys: handbook/enrolment.md
+      - Policies and tags: handbook/tags-and-policies.md
+      - IP addresses: handbook/ip-addresses.md
+      - DNS: handbook/dns.md
+
+      - Connectivity:
+        - Requirements: handbook/formatting.md
+        - NAT traversal: handbook/variables.md
+        - Agent telemetry: handbook/footnotes.md
+
+      - Security:
+        - Threat model: handbook/mathjax.md
+        - Security considerations: handbook/icons-emojis.md
+        - Certificates: handbook/variables.md
+        - Encryption: handbook/images.md
+        - Key management: handbook/lists.md
+
+      - Configuration Files:
+        - Windows: handbook/configs.md
+        - Linux: handbook/configs.md
+
+    - Enclave Networking:
+      - ARP: handbook/arp.md
+      - Multicast: handbook/multicast.md
+
+  - Reference:
+    - API:
+        Using our API: reference/api/index.md
+        Reference: reference/api/reference.md
+
+    - Fabric Commands (CLI):
+      - All:
+        - status: reference/cli/status.md
+        - enrol: reference/cli/enrol.md
+        - start: reference/cli/start.md
+        - stop: reference/cli/stop.md
+        - add: reference/cli/add.md
+        - remove: reference/cli/remove.md
+        - enable: reference/cli/enable.md
+        - disable: reference/cli/disable.md
+        - help: reference/cli/help.md
+        - version: reference/cli/version.md
+      - Windows only:
+        - list-adapters: reference/cli/list-adapters.md
+        - install-adapter: reference/cli/install-adapter.md
+        - remove-adapter: reference/cli/remove-adapter.md
+
+    - Protocol:
+      - Specification: reference/protocol/index.md
+
+  - Knowledge Base: kb/index.md
+
+  - Tutorials and Guides: tutorials/index.md
+
+  - Troubleshooting: troubleshooting/index.md
+
+  - Support:
+    - Contact us: support/contact.md
+    - Billing: 
+      - Frequently asked questions: support/billing.md
+    - Account:
+      - Ownership, transfer and closure: support/account.md
+
 # Google Analytics
 google_analytics:
-  - GOOGLE_ANALYTICS_KEY
+  - UA-244950-12
   - auto
