@@ -94,30 +94,29 @@ nav:
       - ARP: handbook/arp.md
       - Multicast: handbook/multicast.md
 
-  - Reference:
-    - API:
-        Using our API: reference/api/index.md
-        Reference: reference/api/reference.md
+  - API:
+      Using our API: reference/api/index.md
+      API Reference: reference/api/reference.md
 
-    - Fabric Commands (CLI):
-      - All:
-        - status: reference/cli/status.md
-        - enrol: reference/cli/enrol.md
-        - start: reference/cli/start.md
-        - stop: reference/cli/stop.md
-        - add: reference/cli/add.md
-        - remove: reference/cli/remove.md
-        - enable: reference/cli/enable.md
-        - disable: reference/cli/disable.md
-        - help: reference/cli/help.md
-        - version: reference/cli/version.md
-      - Windows only:
-        - list-adapters: reference/cli/list-adapters.md
-        - install-adapter: reference/cli/install-adapter.md
-        - remove-adapter: reference/cli/remove-adapter.md
+  - Fabric Commands (CLI):
+    - All:
+      - status: reference/cli/status.md
+      - enrol: reference/cli/enrol.md
+      - start: reference/cli/start.md
+      - stop: reference/cli/stop.md
+      - add: reference/cli/add.md
+      - remove: reference/cli/remove.md
+      - enable: reference/cli/enable.md
+      - disable: reference/cli/disable.md
+      - help: reference/cli/help.md
+      - version: reference/cli/version.md
+    - Windows only:
+      - list-adapters: reference/cli/list-adapters.md
+      - install-adapter: reference/cli/install-adapter.md
+      - remove-adapter: reference/cli/remove-adapter.md
 
-    - Protocol:
-      - Specification: reference/protocol/index.md
+  - Protocol:
+    - Specification: reference/protocol/index.md
 
   - Knowledge Base: kb/index.md
 
