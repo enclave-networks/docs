@@ -55,9 +55,11 @@ nav:
 #    - Community: community.md
 #    - Glossary: glossary.md
 
-  - Handbook:
-    - Getting Started: handbook/quick-start.md
+  - Quick Start Guide:  
+    - Getting started: quick-start.md
 
+  - Handbook:
+    - Introduction: handbook/introduction.md
     - Installation:
       - Windows: handbook/install/windows.md
       - Linux:
@@ -121,15 +123,14 @@ nav:
 #      - ARP: handbook/arp.md
 #      - Multicast: handbook/multicast.md
 
-  - API:
-      Using our API: reference/api/index.md
+  - REST API:
+      Overview: reference/api/index.md
       Reference: reference/api/reference.md
+      Guides: reference/api/guides.md
 
-  - Knowledge Base: kb/index.md
+  - Tutorials: tutorials/index.md
 
-  - Tutorials and Guides: tutorials/index.md
-
-  - Troubleshooting: troubleshooting/index.md
+  - KB & Troubleshooting: troubleshooting/index.md
 
   - Support:
     - Contact us: support/contact.md

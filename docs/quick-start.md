@@ -112,5 +112,5 @@ Policies determine which systems can connect to each other via Enclave. Each pol
 ![Illustration of how tags are applied to systems](/images/quick-start/create-policy.png)
 
 
-### Next Steps
+## 5. Next Steps
 
