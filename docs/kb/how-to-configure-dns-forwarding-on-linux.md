@@ -1,6 +1,6 @@
 # How to configure DNS forwarding on Linux
 
-[Knowledge Base](/kb) > **How to configure DNS forwarding on Linux**
+[Knowledge Base](/kb) / **How to configure DNS forwarding on Linux**
 
 > This page only applies if you're running Enclave on Linux. Under Windows Enclave automatically manages the local name server search order.
 
@@ -50,9 +50,9 @@ PING primary.redis.service.lon.enclave (100.70.181.144) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.881/0.912/0.985/0.047 ms
 ```
 
-> **Key Principle:** Enclave will not resolve queries for anything outside of the `.enclave.` zone, and will respond to such questions with `SRVFAIL` allowing the other name servers to answer the query.
+/ **Key Principle:** Enclave will not resolve queries for anything outside of the `.enclave.` zone, and will respond to such questions with `SRVFAIL` allowing the other name servers to answer the query.
 
-> **Security Note:** The local Enclave name server will *not* respond to queries from connected peers despite listening on port 53 of the virtual network interface ip address. The name server will only reply to queries which originated from the local system.
+/ **Security Note:** The local Enclave name server will *not* respond to queries from connected peers despite listening on port 53 of the virtual network interface ip address. The name server will only reply to queries which originated from the local system.
 
 ## CentOS 7 (dhclient)
 
@@ -67,7 +67,7 @@ retry 60;
 
 Reboot the operating system to enable the change. You should see the Enclave name server prepended to the top of `/etc/resolv.conf`
 
-> **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ip addr`.
+/ **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ip addr`.
 
 ## Ubuntu 16.04 (resolvconf)
 
@@ -81,7 +81,7 @@ nameserver 100.66.110.73
 
 Reload resolvconf to run the update scripts and apply the changes: `sudo resolvconf -u`
 
-> **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ifconfig`.
+/ **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ifconfig`.
 
 ## Ubuntu 18.04 and higher (systemd-resolved)
 
@@ -98,6 +98,6 @@ Restart the service
 ubuntu@localhost:~$ sudo systemctl restart systemd-resolved
 ```
 
-> **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ip addr`.
+/ **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ip addr`.
 
-> **Important:** If after setting the `DNS=100.66.110.73` in `/etc/systemd/resolved.conf` you find that name resolution fails with the message `Name or service not known` check that `/etc/resolv.conf` correctly points to the local systemd-resolved DNS stub resolver address `127.0.0.53` and that the systemd-resolved stub resolver service is running.   
+/ **Important:** If after setting the `DNS=100.66.110.73` in `/etc/systemd/resolved.conf` you find that name resolution fails with the message `Name or service not known` check that `/etc/resolv.conf` correctly points to the local systemd-resolved DNS stub resolver address `127.0.0.53` and that the systemd-resolved stub resolver service is running.   

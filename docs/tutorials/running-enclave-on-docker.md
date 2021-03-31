@@ -1,8 +1,8 @@
 # How to run Enclave inside a Docker container
 
-[Tutorials](/tutorials) > **How to run Enclave inside a Docker container**
+[Tutorials](/tutorials) / **How to run Enclave inside a Docker container**
 
-> **Note:** This guide was written for Docker Community Edition 19.03.5.
+/ **Note:** This guide was written for Docker Community Edition 19.03.5.
 
 ## Install Docker
 
@@ -52,7 +52,7 @@ Now Enclave is running in the background, detached from the terminal you can che
 # enclave add ABC -d "another host running enclave"
 ```
 
-> **Tip:** To detach Docker from the tty of an interactive container without exiting the shell, use the escape sequence `Ctrl-p` + `Ctrl-q`. This will switch a container running in interactive mode into daemon mode and release the terminal back to the host operating system.
+/ **Tip:** To detach Docker from the tty of an interactive container without exiting the shell, use the escape sequence `Ctrl-p` + `Ctrl-q`. This will switch a container running in interactive mode into daemon mode and release the terminal back to the host operating system.
 
 While this container is running, your host operating system will be able to communicate with connected peers. Use this container to administer the Enclave network.
 

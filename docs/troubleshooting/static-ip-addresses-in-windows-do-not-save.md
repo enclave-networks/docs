@@ -1,6 +1,6 @@
 # KB937056: Static IP addresses in Windows do not save
 
-[Troubleshooting](/troubleshooting) > **KB937056: Static IP addresses in Windows do not save**
+[Troubleshooting](/troubleshooting) / **KB937056: Static IP addresses in Windows do not save**
 
 In some versions of Microsoft Windows, you may manually configure the TCP/IP properties dialog to add a static IP address. After closing and re-opening the dialog, the Internet Protocol (TCP/IP) Properties dialog box still displays the default settings. Additionally, the "Obtain IP address automatically" option is selected.
 
@@ -22,4 +22,4 @@ For reference, on Page 575 of "Windows 2000 Server 24seven" by Matthew Strebe (I
 
 ## Notes
 
-> **Important:** This is not a problem caused by Enclave, but a bug in Microsoft Windows. Some customers may encounter this bug during routine use of the product, which may also interfere an administrators ability to use Enclave effectively.
+/ **Important:** This is not a problem caused by Enclave, but a bug in Microsoft Windows. Some customers may encounter this bug during routine use of the product, which may also interfere an administrators ability to use Enclave effectively.

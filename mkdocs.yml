@@ -49,14 +49,28 @@ google_analytics:
   - G-KZSMYSG7EP
   - auto
 
+markdown_extensions:
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
 nav:
   - Home:
     - Documentation: index.md
 #    - Community: community.md
 #    - Glossary: glossary.md
 
-  - Quick Start Guide:  
-    - Getting started: quick-start.md
+  - Getting started:
+      - Introduction: quick-start.md
+      - 1. Get an Enrolment Key: getting-started/get-an-enrolment-key.md
+      - 2. Enrol Systems: getting-started/enrol-systems.md
+      - 3. Attach Tags: getting-started/attach-tags.md
+      - 4. Define Policy: getting-started/define-policy.md
+      - Next Steps: getting-started/next-steps.md
 
   - Handbook:
     - Introduction: handbook/introduction.md

@@ -1,6 +1,6 @@
 # Enclave is running but the API service is not responding
 
-[Troubleshooting](/troubleshooting) > **Enclave is running but the API service is not responding**
+[Troubleshooting](/troubleshooting) / **Enclave is running but the API service is not responding**
 
 In certain circumstances on Windows computers Enclave may continue to provide network connectivity to peers, but the user interface may report that the API service is not responding, preventing local administration.
 
@@ -24,4 +24,4 @@ This issue has been fixed in the latest version of Enclave. Customers still runn
 
 ## Notes
 
-> **Important:** This is not a problem caused by Enclave, but a bug in dotnet core. Some customers may encounter this bug during routine use of the product, which may also interfere an administrator's ability to use Enclave effectively.
+/ **Important:** This is not a problem caused by Enclave, but a bug in dotnet core. Some customers may encounter this bug during routine use of the product, which may also interfere an administrator's ability to use Enclave effectively.

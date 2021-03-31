@@ -47,7 +47,7 @@ C:\Program Files\Enclave Networks\Enclave\Agent\profiles\
 
 Users should remove configuration and private keys when uninstalling if they are not planning to use Enclave again on a that particular system, or want to forcibly deregister.
 
-> **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
+/ **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
 
 ## What to do if the install fails
 

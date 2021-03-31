@@ -1,6 +1,6 @@
 # Setting up Enclave on a Raspberry Pi
 
-[Tutorials](/tutorials) > **Setting up Enclave on a Raspberry Pi**
+[Tutorials](/tutorials) / **Setting up Enclave on a Raspberry Pi**
 
 Follow these steps to install Enclave on your Raspberry Pi running Raspbian 10 (x64):
 

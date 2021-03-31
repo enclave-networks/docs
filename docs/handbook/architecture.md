@@ -30,7 +30,7 @@ Once mutual intent is confirmed, Enclave builds a Direct Client-to-Client connec
 
 Endpoints are only introduced to one another when mutual intent is demonstrated by both parties, and connections terminate if either party decides to disconnect, or their certificate expires.
 
-> **Note:** The control channel relies on our Cloud services to help facilitate and introduce cooperating endpoints, but each data channel is negotiated and authenticated directly between cooperating endpoints with end-to-end encryption — without the involvement of the Enclave Cloud infrastructure.
+/ **Note:** The control channel relies on our Cloud services to help facilitate and introduce cooperating endpoints, but each data channel is negotiated and authenticated directly between cooperating endpoints with end-to-end encryption — without the involvement of the Enclave Cloud infrastructure.
 
 ### Part 1: UDP and TCP hole punching
 
@@ -44,7 +44,7 @@ Stated simply, both systems will attempt to communicate with one another simulta
 
 The Enclave Discovery Service resides on the public Internet and is used to help connecting peers gain knowledge of, and then share with one another their respective public and private IP address information and source port numbers. This gives Enclave peers enough information to attempt UDP/TCP hole punching Direct Client-to-Client bi-directional connections using outbound-only traffic from their inside of their respective private networks, without infrastructure changes or opening the firewall. This technique is also widely used in many other types of peer-to-peer software including VoIP telephony and WebRTC.
 
-> **Security note:** Local RFC 1918 IP address information is shared with the Discovery Service, which is in turn shared with cooperating parties with whom you are trying to establish direct, private network connectivity.
+/ **Security note:** Local RFC 1918 IP address information is shared with the Discovery Service, which is in turn shared with cooperating parties with whom you are trying to establish direct, private network connectivity.
 >
 > In the context of WebRTC, sharing of private IP addresses via the client's browser is considered to be undesirable information disclosure as it allows websites to conduct covert reconnaissance and surveillance.
 >

@@ -1,6 +1,6 @@
 # Connectivity experiments using Enclave and Docker
 
-[Tutorials](/tutorials) > **Connectivity experiments using Enclave and Docker**
+[Tutorials](/tutorials) / **Connectivity experiments using Enclave and Docker**
 
 This page contains a growing collection of **non-production** Docker scripts for various containerised applications that can be spun up quickly and accessed securely using Enclave for experiments and proof of concept projects.
 
