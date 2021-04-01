@@ -40,6 +40,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/enclave-networks/
 
+plugins:
+  - render_swagger
+  
 nav:
   - Home:
     - Documentation: index.md
@@ -113,8 +116,8 @@ nav:
       - Multicast: handbook/multicast.md
 
   - API:
-      Using our API: reference/api/index.md
-      Reference: reference/api/reference.md
+      Using our API: api/index.md
+      Reference: api/reference.md
 
   - Knowledge Base: kb/index.md
 
