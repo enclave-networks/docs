@@ -1,5 +1,5 @@
 
-# Define Policy
+# Getting Started — Define Policy
 
 **Policies** determine which systems can connect to each other via Enclave, and which can't.
 

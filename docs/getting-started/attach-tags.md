@@ -1,4 +1,4 @@
-# Attach Tags
+# Getting Started — Attach Tags
 
 **Tags** are free-form text labels which can be attached to one or more systems in your account. Tags allow administrators to group systems with similar characteristics together. Tags can be manually added to an enrolled system, or an Enrolment Key can be configured to apply an initial set of tags to enrolling systems.
 
