@@ -144,9 +144,9 @@ nav:
 #      - Multicast: handbook/multicast.md
 
   - REST API:
-      Overview: reference/api/index.md
-      Reference: reference/api/reference.md
-      Guides: reference/api/guides.md
+      Overview: api/index.md
+      Reference: api/reference.md
+      #Guides: api/guides.md
 
   - Tutorials: tutorials/index.md
 
