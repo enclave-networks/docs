@@ -1,14 +1,30 @@
 
 # Define Policy
 
-Policies determine which systems can connect to each other via Enclave. Each policy is composed of one or more Tags which are assigned either to the Sender or Receiver side of  policy. Any systems which fall under the Sender side tags of a policy can send traffic to any systems which fall under the Receiver side tags.
+**Policies** determine which systems can connect to each other via Enclave, and which can't.
 
-/ **Production use:** This guide uses a `Quick start guide - full mesh` policy. You can (and should) create your own Policy for use in production. To learn more about how to create and manage Tags in your organisation, please refer to the [Policy and Tags](/handbook/tags-and-policies.md) section of this handbook. 
+Each policy is composed of at least two Tags. Each tag is assigned either to the **Sender** or the **Receiver** side of  Policy.
 
-1. Create a new policy called `Quick start guide - full mesh`
-2. Add the `quickstart` tag to the Sender and Receiver side of the policy.
-3. Save the policy.
-4. Check connectivity.
+Any systems which are members of tags on the Sender side of policy are able to originate traffic (subject to Access Control Lists) to any systems which are members of tags on the Receiver side of the same policy.
 
-![Illustration of how tags are applied to systems](/images/quick-start/create-policy.png)
 
+=== "Partially connected mesh"
+
+    1. Create a new policy called `Org Server Access`
+    2. Add the `org.quickstart.workstations` tag to the Sender side of the policy.
+    3. Add the `org.quickstart.servers` tag to the Receiver side of the policy.
+    4. Save the policy.
+
+    ![Illustration of how tags are applied to systems](/images/quick-start/create-policy.png)
+
+=== "Fully connected mesh"
+
+    1. Create a new policy called `Org Full Mesh`
+    2. Add the `org.quickstart.any` tag to the Sender side of the policy.
+    3. Add the `org.quickstart.any` tag to the Receiver side of the policy.
+    4. Save the policy.
+
+    ![Illustration of how tags are applied to systems](/images/quick-start/create-policy.png)
+
+
+> **Production use:** This guide suggests example policies. You can (and should) create your policies which reflect the structure of your organisation for use in production. Visit the [Policy and Tags](handbook/policies-and-tags.md) section of the handbook to learn more about creating and managing Policy.
