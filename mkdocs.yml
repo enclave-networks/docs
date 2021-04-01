@@ -52,6 +52,7 @@ google_analytics:
 markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.superfences
+  - footnotes
 
 extra_css:
   - stylesheets/extra.css

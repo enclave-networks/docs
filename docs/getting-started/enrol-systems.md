@@ -164,10 +164,11 @@ Use the `Default Enrolment Key` key to enrol **both** systems.
                     path: /dev/net/tun
             ```
 
+            > See [pod.yaml](https://github.com/enclave-networks/kubernetes/blob/main/examples/nginx-enclave-sidecar/pod.yaml) for a complete example. 
+
         2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
 
         3. Push your changes to the cluster using `kubectl apply` or your preferred method
-
 
 === "Network Attached Storage"
 
