@@ -31,6 +31,7 @@ body, code, input, kbd, pre {
 
 /* make [code] blocks stand out */
 .md-typeset code {
+    font-size: .8em;
     padding: .15em .3em;
     border-radius: 0;
 }
@@ -44,6 +45,7 @@ body, code, input, kbd, pre {
     padding: .5em 0 0 0;
 }
 
+/* increase top/bottom spacing on ol and ul */
 .md-typeset ol, 
 .md-typeset pre, 
 .md-typeset ul {
@@ -55,6 +57,27 @@ body, code, input, kbd, pre {
     margin-bottom: .6em;
 }
 
+/* ensure images have room to breathe */
 .md-typeset img, .md-typeset svg {
     margin: .4em 0;
+}
+
+/* reduce size of the blockquote text and left border */
+.md-typeset blockquote {
+    font-size: .9em;
+}
+
+.md-typeset blockquote p {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.md-typeset blockquote p:first-child {
+    padding: 0;
+    margin: 0;
+}
+
+/* get the font in tables to a reasonable size */
+.md-typeset table:not([class]) {    
+    font-size: .68rem;
 }

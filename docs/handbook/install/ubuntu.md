@@ -49,4 +49,4 @@ The supervisor service responds to the Enclave CLI verbs [start](/handbook/fabri
 
 **TODO** `apt-get remove` and `apt-get purge`
 
-/ **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
+> **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
