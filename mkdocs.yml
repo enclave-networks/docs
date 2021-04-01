@@ -12,22 +12,24 @@ theme:
     #- navigation.top
     #- toc.integrate
 
-  # 404 page
   static_templates:
     - 404.html
 
-  # Necessary for search to work properly
+  # necessary for search to work properly
   include_search_page: false
   search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
+  # default values, taken from mkdocs_theme.yml
   language: en
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
   icon:
     logo: logo
+#  palette:
+#    primary: red
 
 extra:
   social:
@@ -39,100 +41,114 @@ extra:
       link: https://twitter.com/enclavenetworks
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/enclave-networks/
+  # enable documentation versioning support 
+  version:
+    provider: mike
 
-plugins:
-  - render_swagger
-  
+google_analytics:
+  - UA-244950-15
+  - auto
+
+markdown_extensions:
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
 nav:
   - Home:
     - Documentation: index.md
-    - Community: community.md
-    - Glossary: glossary.md
+#    - Community: community.md
+#    - Glossary: glossary.md
+
+  - Getting started:
+      - Introduction: quick-start.md
+      - 1. Get an Enrolment Key: getting-started/get-an-enrolment-key.md
+      - 2. Enrol Systems: getting-started/enrol-systems.md
+      - 3. Attach Tags: getting-started/attach-tags.md
+      - 4. Define Policy: getting-started/define-policy.md
+      - Next Steps: getting-started/next-steps.md
 
   - Handbook:
-    - Getting Started: handbook/quick-start.md
-
+    - Introduction: handbook/introduction.md
     - Installation:
       - Windows: handbook/install/windows.md
       - Linux:
-        - Ubuntu: handbook/install/debian.md
-        - CentOS/RHEL: handbook/install/rhel.md
-        - Fedora: handbook/install/fedora.md
-        - Amazon Linux: handbook/install/amazon-linux.md
-        - Arch Linux: handbook/install/arch.md
-        - Raspbian: handbook/install/raspbian.md
-        - Docker: handbook/install/docker.md
-        - Kubernetes: handbook/install/kubernetes.md
-        - Synology NAS: handbook/install/synology-nas.md
+        - Ubuntu / Debian: handbook/install/ubuntu.md
+#        - CentOS / RHEL: handbook/install/rhel.md
+#        - Fedora: handbook/install/fedora.md
+#        - Amazon Linux: handbook/install/amazon-linux.md
+#        - Arch Linux: handbook/install/arch.md
+#        - Raspbian: handbook/install/raspbian.md
+#        - Docker: handbook/install/docker.md
+#        - Kubernetes: handbook/install/kubernetes.md
+#        - Synology NAS: handbook/install/synology-nas.md
 
-      - Running Enclave:
-        - As a service: handbook/creating-your-site.md
-        - Interactively: handbook/publishing-your-site.md
+#      - Running Enclave:
+#        - As a service: handbook/creating-your-site.md
+#        - Interactively: handbook/publishing-your-site.md
 
-        - Fabric commands (CLI):
-          - All:
-            - status: reference/cli/status.md
-            - enrol: reference/cli/enrol.md
-            - start: reference/cli/start.md
-            - stop: reference/cli/stop.md
-            - add: reference/cli/add.md
-            - remove: reference/cli/remove.md
-            - enable: reference/cli/enable.md
-            - disable: reference/cli/disable.md
-            - help: reference/cli/help.md
-            - version: reference/cli/version.md
-          - Windows only:
-            - list-adapters: reference/cli/list-adapters.md
-            - install-adapter: reference/cli/install-adapter.md
-            - remove-adapter: reference/cli/remove-adapter.md
+#        - Fabric commands (CLI):
+#          - All:
+#            - status: reference/cli/status.md
+#            - enrol: reference/cli/enrol.md
+#            - start: reference/cli/start.md
+#            - stop: reference/cli/stop.md
+#            - add: reference/cli/add.md
+#            - remove: reference/cli/remove.md
+#            - enable: reference/cli/enable.md
+#            - disable: reference/cli/disable.md
+#            - help: reference/cli/help.md
+#            - version: reference/cli/version.md
+#          - Windows only:
+#            - list-adapters: reference/cli/list-adapters.md
+#            - install-adapter: reference/cli/install-adapter.md
+#            - remove-adapter: reference/cli/remove-adapter.md
 
     - Core Concepts:
-      - Principles: handbook/principles.md
+#      - Principles: handbook/principles.md
       - Architecture: handbook/architecture.md
-      - Endpoint management: handbook/endpoint-management.md
-      - Enrolment keys: handbook/enrolment.md
-      - Policies and tags: handbook/tags-and-policies.md
-      - IP addresses: handbook/ip-addresses.md
-      - DNS: handbook/dns.md
+#      - Endpoint management: handbook/endpoint-management.md
+#      - Enrolment keys: handbook/enrolment.md
+#      - Policies and tags: handbook/tags-and-policies.md
+#      - IP addresses: handbook/ip-addresses.md
+#      - DNS: handbook/dns.md
 
-      - Connectivity:
-        - Requirements: handbook/formatting.md
-        - NAT traversal: handbook/variables.md
-        - Agent telemetry: handbook/footnotes.md
+#      - Connectivity:
+#        - Requirements: handbook/formatting.md
+#        - NAT traversal: handbook/variables.md
+#        - Agent telemetry: handbook/footnotes.md
 
-      - Security:
-        - Threat model: handbook/mathjax.md
-        - Security considerations: handbook/icons-emojis.md
-        - Certificates: handbook/variables.md
-        - Encryption: handbook/images.md
-        - Key management: handbook/lists.md
+#      - Security:
+#        - Threat model: handbook/threat-model.md
+#        - Security considerations: handbook/security-considerations.md
+#        - Certificates: handbook/certificates.md
+#        - Encryption: handbook/encryption.md
+#        - Key management: handbook/key-management.md
 
-      - Configuration Files:
-        - Windows: handbook/configs.md
-        - Linux: handbook/configs.md
+#      - Configuration Files:
+#        - Windows: handbook/configs.md
+#        - Linux: handbook/configs.md
 
-    - Enclave Networking:
-      - ARP: handbook/arp.md
-      - Multicast: handbook/multicast.md
+#    - Enclave Networking:
+#      - ARP: handbook/arp.md
+#      - Multicast: handbook/multicast.md
 
-  - API:
-      Using our API: api/index.md
-      Reference: api/reference.md
+  - REST API:
+      Overview: reference/api/index.md
+      Reference: reference/api/reference.md
+      Guides: reference/api/guides.md
 
-  - Knowledge Base: kb/index.md
+  - Tutorials: tutorials/index.md
 
-  - Tutorials and Guides: tutorials/index.md
-
-  - Troubleshooting: troubleshooting/index.md
+  - KB & Troubleshooting: troubleshooting/index.md
 
   - Support:
     - Contact us: support/contact.md
-    - Billing: 
+    - Billing:
       - Frequently asked questions: support/billing.md
     - Account:
       - Ownership, transfer and closure: support/account.md
-
-# Google Analytics
-google_analytics:
-  - UA-244950-12
-  - auto

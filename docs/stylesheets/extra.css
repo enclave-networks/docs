@@ -1,0 +1,60 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* adjust font size
+.md-typeset {
+    font-size: .774rem;
+    line-height: 1.53;
+} */
+
+body, code, input, kbd, pre {
+    color: rgb(0 0 0 / 75%);
+}
+
+/* give the content some room to breathe */
+.md-content {
+    margin-bottom: 90px;
+}
+
+/* light border on primary sidebar */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    border-right: 1px solid #f5f5f5;
+}
+
+/* restore bottom margin */
+.md-content__inner>:last-child {
+    margin-bottom: inherit;
+}
+
+/* make [code] blocks stand out */
+.md-typeset code {
+    padding: .15em .3em;
+    border-radius: 0;
+}
+
+/* increase tabbed set spacing */ 
+.md-typeset .tabbed-set {    
+    margin: 2em 0;
+}
+
+.md-typeset .tabbed-content {
+    padding: .5em 0 0 0;
+}
+
+.md-typeset ol, 
+.md-typeset pre, 
+.md-typeset ul {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+
+.md-typeset ol li, .md-typeset ul li {
+    margin-bottom: .6em;
+}
+
+.md-typeset img, .md-typeset svg {
+    margin: .4em 0;
+}
