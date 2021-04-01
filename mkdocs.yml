@@ -77,62 +77,62 @@ nav:
         - Windows: install/windows.md
         - Linux:
           - Ubuntu / Debian: install/ubuntu.md
-          - CentOS / RHEL: install/rhel.md
-          - Fedora: install/fedora.md
-          - Amazon Linux: install/amazon-linux.md
-          - Arch Linux: install/arch.md
-          - Raspbian: install/raspbian.md
-        - Containers:
-          - Docker: install/docker.md
-          - Kubernetes: install/kubernetes.md
-        - Network Attached Storage:
-          - Synology NAS: install/synology-nas.md
-      - Running enclave: install/running-enclave.md
+#          - CentOS / RHEL: install/rhel.md
+#          - Fedora: install/fedora.md
+#          - Amazon Linux: install/amazon-linux.md
+#          - Arch Linux: install/arch.md
+#          - Raspbian: install/raspbian.md
+#        - Containers:
+#          - Docker: install/docker.md
+#          - Kubernetes: install/kubernetes.md
+#        - Network Attached Storage:
+#          - Synology NAS: install/synology-nas.md
+#      - Running enclave: install/running-enclave.md
 
-    - Concepts:
-      - Principles: concepts/principles.md
-      - Architecture: concepts/architecture.md
-      - Connectivity:
-        - Requirements: concepts/connectivity/requirements.md
-        - NAT traversal: concepts/connectivity/nat.md
-        - Agent telemetry: concepts/connectivity/telemetry.md
-      - Security:
-        - Threat model: concepts/security/threat-model.md
-        - Security considerations: concepts/security/considerations.md
-        - Certificates: concepts/security/certificates.md
-        - Encryption: concepts/security/encryption.md
+#    - Concepts:
+#      - Principles: concepts/principles.md
+#      - Architecture: concepts/architecture.md
+#      - Connectivity:
+#        - Requirements: concepts/connectivity/requirements.md
+#        - NAT traversal: concepts/connectivity/nat.md
+#        - Agent telemetry: concepts/connectivity/telemetry.md
+#      - Security:
+#        - Threat model: concepts/security/threat-model.md
+#        - Security considerations: concepts/security/considerations.md
+#        - Certificates: concepts/security/certificates.md
+#        - Encryption: concepts/security/encryption.md
 
-    - Management:
-      - Organisations: management/organisations.md
-      - Endpoint management: management/endpoint-management.md
-      - Policies and tags: management/policies-and-tags.md
-      - Enrolment keys: management/enrolment.md
-      - Profiles: management/profiles.md
-      - Examples: management/examples.md
+#    - Management:
+#      - Organisations: management/organisations.md
+#      - Endpoint management: management/endpoint-management.md
+#      - Policies and tags: management/policies-and-tags.md
+#      - Enrolment keys: management/enrolment.md
+#      - Profiles: management/profiles.md
+#      - Examples: management/examples.md
 
-    - Networking:
-      - Topologies: networking/topologies.md
-      - IP addresses: networking/ip-addresses.md
-      - DNS: networking/dns.md
-      - ARP: networking/arp.md
-      - Multicast: networking/multicast.md
+#    - Networking:
+#      - Topologies: networking/topologies.md
+#      - IP addresses: networking/ip-addresses.md
+#      - DNS: networking/dns.md
+#      - ARP: networking/arp.md
+#      - Multicast: networking/multicast.md
 
-    - Fabric commands (CLI):
-      - All:
-        - status: cli/status.md
-        - enrol: cli/enrol.md
-        - start: cli/start.md
-        - stop: cli/stop.md
-        - add: cli/add.md
-        - remove: cli/remove.md
-        - enable: cli/enable.md
-        - disable: cli/disable.md
-        - help: cli/help.md
-        - version: cli/version.md
-      - Windows only:
-        - list-adapters: cli/list-adapters.md
-        - install-adapter: cli/install-adapter.md
-        - remove-adapter: cli/remove-adapter.md
+#    - Fabric commands (CLI):
+#      - All:
+#        - status: cli/status.md
+#        - enrol: cli/enrol.md
+#        - start: cli/start.md
+#        - stop: cli/stop.md
+#        - add: cli/add.md
+#        - remove: cli/remove.md
+#        - enable: cli/enable.md
+#        - disable: cli/disable.md
+#        - help: cli/help.md
+#        - version: cli/version.md
+#      - Windows only:
+#        - list-adapters: cli/list-adapters.md
+#        - install-adapter: cli/install-adapter.md
+#        - remove-adapter: cli/remove-adapter.md
 
   - REST API:
       Overview: api/index.md
@@ -143,9 +143,9 @@ nav:
 
   - KB & Troubleshooting: troubleshooting/index.md
 
-  - Support:
-    - Contact us: support/contact.md
-    - Billing:
-      - Frequently asked questions: support/billing.md
-    - Account:
-      - Ownership, transfer and closure: support/account.md
+  #- Support:
+  #  - Contact us: support/contact.md
+  #  - Billing:
+  #    - Frequently asked questions: support/billing.md
+  #  - Account:
+  #    - Ownership, transfer and closure: support/account.md
