@@ -85,9 +85,11 @@ nav:
 #        - Amazon Linux: handbook/install/amazon-linux.md
 #        - Arch Linux: handbook/install/arch.md
 #        - Raspbian: handbook/install/raspbian.md
-#        - Docker: handbook/install/docker.md
-#        - Kubernetes: handbook/install/kubernetes.md
-#        - Synology NAS: handbook/install/synology-nas.md
+      - Containers:
+        - Docker: handbook/install/docker.md
+        - Kubernetes: handbook/install/kubernetes.md
+      - Network Attached Storage:
+        - Synology NAS: handbook/install/synology-nas.md
 
 #      - Running Enclave:
 #        - As a service: handbook/creating-your-site.md

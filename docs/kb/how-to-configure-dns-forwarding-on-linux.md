@@ -1,6 +1,6 @@
 # How to configure DNS forwarding on Linux
 
-[Knowledge Base](/kb) / **How to configure DNS forwarding on Linux**
+[Knowledge Base](/troubleshooting) / **How to configure DNS forwarding on Linux**
 
 > This page only applies if you're running Enclave on Linux. Under Windows Enclave automatically manages the local name server search order.
 

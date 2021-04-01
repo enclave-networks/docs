@@ -11,7 +11,7 @@ To follow this guide and build your first connections with Enclave, you will nee
 1. An Enclave account, it's [free to register](https://portal.enclave.io/account/register).
 2. At least two computers, devices or containers where you can install software.
 
-## 1. Get an Enrolment Key
+## Get an Enrolment Key
 
 **Enrolment Keys** allow new systems or devices to join your Enclave account. Enrolment Keys can also used to apply initial configuration settings (such as [Policy and Tags](handbook/policies-and-tags.md)) to new systems as they enrol.
 
@@ -24,7 +24,7 @@ To follow this guide and build your first connections with Enclave, you will nee
 
 > **Production use:** This guide uses a `Default Enrolment Key` which was automatically created when you registered for an account. You can (and should) create your own Enrolment Keys for use in production. Visit the [Enrolment Keys](/handbook/enrolment.md) section of the handbook to learn more about creating and managing Enrolment Keys.
 
-## 2. Install Enclave
+## Install Enclave
 
 For this guide you will need to install Enclave on **two** separate devices, systems or containers. Use the same `Default Enrolment Key` key to enrol **both** systems.
 

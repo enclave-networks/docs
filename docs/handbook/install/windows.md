@@ -1,8 +1,8 @@
-# Install Enclave on Windows
+# Install Guides — Windows
 
-> This guide applies to Windows 7, 8 and 10 and Windows Server 2012, 2016 and 2019.
+> This guide applies to Windows 7, 8 and 10 and Windows Server 2012, 2016 and 2019 with packages are available for x64.
 
-Enclave works with Windows 7 or Windows Server 2012 and higher.
+## Installation
 
 1. Download the latest Windows installer from the [Downloads](https://portal.enclave.io/download) section of your account [Portal](https://portal.enclave.io/).
 2. Run the installer. Administrator privileges are required, but the installer will prompt for privilege elevation if necessary.
@@ -14,7 +14,7 @@ Enclave works with Windows 7 or Windows Server 2012 and higher.
 
 **You're all set!** You've successfully enrolled a new system to your Enclave account.
 
-## Unattended Installation
+<!--- ## Unattended Installation --->
 
 ## Next steps
 

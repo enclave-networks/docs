@@ -1,8 +1,8 @@
-# Installing Enclave on Ubuntu / Debian
+# Install Guides — Ubuntu / Debian
 
-> This guide applies to Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 18.10, 19.10 and 20.04 LTS.
+> This guide applies to Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 18.10, 19.10 and 20.04 LTS with packages available for x86, x64 and ARM.
 
-Packages are available for x86, x64 and ARM. All work with Ubuntu 14.04 LTS and higher.
+## Installation
 
 1. Install the **apt-transport-https** plugin.
 
@@ -22,18 +22,21 @@ Packages are available for x86, x64 and ARM. All work with Ubuntu 14.04 LTS and 
 
 **Congratulations!** You've successfully enrolled a new system to your Enclave account.
 
+<!--- ## Unattended Installation --->
+
 ## Next steps
 
-Depending on the type of enrolment key you used to enrol your new system, it might be held waiting for an Administrator to provide enrolment approval in your account [Portal](https://portal.enclave.io/). Log in to authorise the enrolment of your new system and configure additional options like DNS. 
+#### Build a network
 
-**Find your local Enclave IP address** <br />
+Visit the [building your first connection](/guides/quick-start#getting-connected) section of our getting started guide to learn how to control Enclave.
+
+#### Find your IP address
+
 Run `enclave status` at the command line to find the **Virtual Address** of your newly installed system.
 
-**Connect to other systems** <br />
-Add [Tags](/handbook/portal/tags) to this system in the [Portal](https://portal.enclave.io/) to enable centralised management of network connectivity through [Policies](/handbook/portal/policies), or use this system without centralised management and allow local users to [define and manage](/handbook/portal/key-concepts) connectivity to other Enclave systems.
+#### Test connectivity
 
-**Test connectivity** <br />
-Pings are a great start, but don't forget to check the local firewall configuration to ensure ICMP traffic is permitted.
+Pings are a great start, but don't forget to check the local Windows firewall configuration to ensure ICMP traffic is permitted.
 
 ## Starting and stopping Enclave
 

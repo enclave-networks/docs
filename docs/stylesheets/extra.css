@@ -64,7 +64,8 @@ body, code, input, kbd, pre {
 
 /* reduce size of the blockquote text and left border */
 .md-typeset blockquote {
-    font-size: .9em;
+    font-size: .88em;
+    margin: 2.4em 0 1em 0;
 }
 
 .md-typeset blockquote p {
