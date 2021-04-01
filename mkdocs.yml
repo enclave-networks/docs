@@ -46,7 +46,7 @@ extra:
     provider: mike
 
 google_analytics:
-  - G-KZSMYSG7EP
+  - UA-244950-15
   - auto
 
 markdown_extensions:
