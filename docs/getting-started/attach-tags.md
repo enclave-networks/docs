@@ -1,6 +1,6 @@
 # Attach Tags
 
-Tags are free-form text labels which can be attached to one or more systems in your account. Tags allow administrators to group systems with similar characteristics together. Tags can be manually added to an enrolled system, or an Enrolment Key can be configured to apply an initial set of tags to enrolling systems.
+**Tags** are free-form text labels which can be attached to one or more systems in your account. Tags allow administrators to group systems with similar characteristics together. Tags can be manually added to an enrolled system, or an Enrolment Key can be configured to apply an initial set of tags to enrolling systems.
 
 The following graphic illustrates how a single tag might apply to several individual systems, in this example systems called `gitlab`, `teamcity` and a third system called `repo` are all members of the tag `org.build.ci-cd`.
 

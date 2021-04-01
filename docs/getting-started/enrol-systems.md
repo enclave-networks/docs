@@ -1,4 +1,4 @@
-# Enrol at least two Systems
+# Install Enclave and Enrol at least two Systems
 
 **Enrol at least two different systems.**
 
@@ -93,7 +93,81 @@ Use the `Default Enrolment Key` key to enrol **both** systems.
 
     === "Docker"
 
+        1. Create a `docker-compose.yml` file:
+
+            ```yaml
+            version: '3.1'
+
+            services:
+              enclave-fabric:
+                container_name: fabric
+                image: enclavenetworks/enclave:latest
+                restart: always
+
+                cap_add:
+                  - NET_ADMIN
+                devices:
+                  - /dev/net/tun
+                environment:
+                  ENCLAVE_ENROLMENT_KEY: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+                volumes:
+                  - enclave-config:/etc/enclave/profiles
+                  - enclave-logs:/var/log/enclave
+
+            volumes:
+              enclave-config:
+              enclave-logs:
+            ```
+
+        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
+
+        3. Bring the container online using `docker-compose up -d`
+
+        4. Verify Enclave is running insider the container with `docker exec fabric enclave status`
+
     === "Kubernetes"
+
+        1. Add the **enclave-sidecar** to your pod yaml file under the `containers:` section. For example, if your pod contains an nginx container:
+
+            ```yaml
+            spec:
+              containers:
+              - name: nginx-container
+                image: nginx:1.7.9
+                ports:
+                  - containerPort: 80
+            ```
+
+             Add the **enclave-sidecar** definition to below your existing pod:
+
+            ```yaml
+            spec:
+              containers:
+              - name: nginx-container
+                ...
+                
+              - name: enclave-sidecar
+                image: enclavenetworks/enclave:latest
+                env:
+                  - name: "ENCLAVE_ENROLMENT_KEY"
+                    value: "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+                securityContext:
+                  capabilities:
+                    add: ['NET_ADMIN']
+                volumeMounts:
+                  - name: tun
+                    mountPath: /dev/net/tun
+              volumes:
+                - name: tun
+                  hostPath:
+                    type: 'CharDevice'
+                    path: /dev/net/tun
+            ```
+
+        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
+
+        3. Push your changes to the cluster using `kubectl apply` or your preferred method
+
 
 === "Network Attached Storage"
 
@@ -101,5 +175,6 @@ Use the `Default Enrolment Key` key to enrol **both** systems.
 
     === "Synology NAS"
 
+        1. We have beta support for Synology NAS drives (running on DSM 7.0 or later) via docker. Please follow our guide to [installing Enclave on your Synology NAS drive](/tutorials/how-to-securely-access-your-synology-nas-drive-with-enclave/).
 
-**Congratulations!** You've successfully enrolled a new system to your Enclave account. Once you've enrolled at least two systems to your account, [attach tags](getting-started/attach-tags.md) to your newly enrolled systems.
+**Congratulations!** You've successfully enrolled a new system to your Enclave account. Once you've enrolled at least two systems, [attach tags](/getting-started/attach-tags) to your newly enrolled systems.

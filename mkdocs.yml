@@ -51,6 +51,7 @@ google_analytics:
 
 markdown_extensions:
   - pymdownx.tabbed
+  - pymdownx.superfences
 
 extra_css:
   - stylesheets/extra.css
@@ -67,7 +68,7 @@ nav:
   - Getting started:
       - Introduction: quick-start.md
       - 1. Get an Enrolment Key: getting-started/get-an-enrolment-key.md
-      - 2. Enrol Systems: getting-started/enrol-systems.md
+      - 2. Install and Enrol Systems: getting-started/enrol-systems.md
       - 3. Attach Tags: getting-started/attach-tags.md
       - 4. Define Policy: getting-started/define-policy.md
       - Next Steps: getting-started/next-steps.md
@@ -114,6 +115,7 @@ nav:
 #      - Endpoint management: handbook/endpoint-management.md
 #      - Enrolment keys: handbook/enrolment.md
 #      - Policies and tags: handbook/tags-and-policies.md
+#      - Topologies: handbook/topologies.md 
 #      - IP addresses: handbook/ip-addresses.md
 #      - DNS: handbook/dns.md
 
