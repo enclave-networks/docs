@@ -1,44 +1,48 @@
 # Getting Started — Installation
 
-In this guide we will start your journey with Enclave by showing you how to enrol your **first two** systems and show you how to use policy and tags to centrally manage private network connectivity between them.
+In this guide we will start your journey with Enclave by showing you how to enrol your first systems and use policy and tags to establish a private network between them.
 
 ![Quick start steps](/images/quick-start/steps.png)
 
 ## Prerequisites
 
-To follow this guide and build your first connections with Enclave, you will need:
+To follow this guide, you will need:
 
-1. An Enclave account, it's [free to register](https://portal.enclave.io/account/register).
-2. At least two computers, devices or containers where you can install software.
+1. An Enclave account, it's [free to register](https://portal.enclave.io/account/register)
+2. At least two computers, devices or containers where you can install software
 
 ## Get an Enrolment Key
 
-**Enrolment Keys** allow new systems or devices to join your Enclave account. Enrolment Keys can also used to apply initial configuration settings (such as [Policy and Tags](handbook/policies-and-tags.md)) to new systems as they enrol.
+You will need an Enrolment Key from your account to install Enclave. Enrolment Keys allow you to enrol new systems or devices to your Enclave account.
 
-1. Login to your account in the [Enclave Portal](https://portal.enclave.io/).
-2. Navigate to the [Enrolment Keys](https://portal.enclave.io/my/keys) page and select the `Default Enrolment Key` from the table. In the details pane, select [View key](https://portal.enclave.io/my/keys/1) and make a note of the 30 character Enrolment Key as you will need it to install Enclave.
+1. Login to your account in the [Enclave Portal](https://portal.enclave.io/)
+2. Navigate to the Enrolment Keys page and select the [`Default Enrolment Key`](https://portal.enclave.io/my/keys) from the table
+3. In the details pane, select [`View key`](https://portal.enclave.io/my/keys/1) and make a note of the 30 character Enrolment Key
 
 > **Security note:** Enrolment keys should be treated as secrets; Handle, share and store your Enrolment Keys as you would any other organisational secret.
 
 <!-- -->
 
-> **Production use:** This guide uses a `Default Enrolment Key` which was automatically created when you registered for an account. You can (and should) create your own Enrolment Keys for use in production. Visit the [Enrolment Keys](/handbook/enrolment.md) section of the handbook to learn more about creating and managing Enrolment Keys.
+> **Production use:** This guide uses a `Default Enrolment Key` which was automatically created when you first registered for an account. You can (and should) create your own Enrolment Keys for use in production. Visit the [Enrolment Keys](/management/enrolment) section of the handbook to learn more about creating and managing Enrolment Keys.
 
 ## Install Enclave
 
-For this guide you will need to install Enclave on **two** separate devices, systems or containers. Use the same `Default Enrolment Key` key to enrol **both** systems.
+You will need to install Enclave on at least two separate devices, systems or containers.
 
 === "Windows"
 
-    1. Download the Windows installer from the [Downloads](https://portal.enclave.io/download) section of your account.
-    2. Run the installer. You will be prompted for privilege elevation if necessary.
-    3. Provide your `Default Enrolment Key` to complete the installation.
+    <small>Requires Windows 7 (x64) or later.</small>
+
+    1. <a href="http://install.enclave.io/windows-x64" target="_blank" rel="noopener noreferer">Download and run</a> the latest Windows installer
+    2. Provide the `Default Enrolment Key` from your account to complete the installation
 
 === "Linux"
 
     Select your distribution:
 
     === "Ubuntu / Debian"
+
+        <small>Requires at least Ubuntu 14.04 LTS or Debian 9.</small> 
 
         1. Install apt-transport-https
 
@@ -58,6 +62,8 @@ For this guide you will need to install Enclave on **two** separate devices, sys
 
     === "CentOS / RHEL"
     
+        <small>Requires at least CentOS 7.6 or RHEL 7.</small> 
+
         1. Install Enclave using our quick-start script
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
@@ -65,6 +71,8 @@ For this guide you will need to install Enclave on **two** separate devices, sys
         2. Provide your `Default Enrolment Key` to complete the installation
 
     === "Fedora"
+
+        <small>Requires at least Fedora 32.</small> 
 
         1. Install Enclave using our quick-start script
 
@@ -74,6 +82,8 @@ For this guide you will need to install Enclave on **two** separate devices, sys
 
     === "Amazon Linux"
 
+        <small>Requires at least Amazon Linux 2018.03.</small> 
+
         1. Install Enclave using our quick-start script
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
@@ -82,6 +92,8 @@ For this guide you will need to install Enclave on **two** separate devices, sys
 
     === "Arch Linux"
 
+        <small>Requires at least Arch Linux 2020.08.01.</small> 
+
         1. Install Enclave using our quick-start script
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
@@ -89,6 +101,8 @@ For this guide you will need to install Enclave on **two** separate devices, sys
         2. Provide your `Default Enrolment Key` to complete the installation
 
     === "Raspbian"
+
+        <small>Requires at least Raspbian 10 (buster).</small> 
 
         1. Install apt-transport-https
 
@@ -197,4 +211,4 @@ For this guide you will need to install Enclave on **two** separate devices, sys
 
         1. We have beta support for Synology NAS drives (running on DSM 7.0 or later) via docker. Please follow our guide to [installing Enclave on your Synology NAS drive](/tutorials/how-to-securely-access-your-synology-nas-drive-with-enclave/).
 
-**Congratulations!** You've successfully enrolled a new system to your Enclave account. Once you've enrolled at least two systems, [attach tags](/getting-started/attach-tags) to your newly enrolled systems.
+**Congratulations!** You've successfully enrolled a new system to your Enclave account. Once you've enrolled at least two systems, continue by [attaching tags](/getting-started/attach-tags) to your newly enrolled systems.
