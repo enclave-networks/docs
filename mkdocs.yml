@@ -60,6 +60,13 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
 
+plugins:
+  - redirects:
+      redirect_maps:
+        quick-start.md: getting-started/installation.md
+        keywords/full-mesh.md: management/policies-and-tags.md
+        keywords/dns-load-balancing.md: networking/dns.md
+
 nav:
   - Home: 
     - Enclave documentation: index.md
@@ -68,7 +75,7 @@ nav:
 
     - Setup:
       - Getting started:
-        - Installation: quick-start.md
+        - Installation: getting-started/installation.md
         - Attach tags: getting-started/attach-tags.md
         - Define policy: getting-started/define-policy.md
         - Next steps: getting-started/next-steps.md
