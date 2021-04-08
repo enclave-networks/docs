@@ -112,7 +112,7 @@ nav:
 #        - Certificates: concepts/security/certificates.md
 #        - Encryption: concepts/security/encryption.md
 
-    - Management:
+#    - Management:
 #      - Organisations: management/organisations.md
 #      - Endpoint management: management/endpoint-management.md
 #      - Policies and tags: management/policies-and-tags.md
@@ -120,7 +120,7 @@ nav:
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
-    - Networking:
+#    - Networking:
 #      - Topologies: networking/topologies.md
 #      - IP addresses: networking/ip-addresses.md
 #      - DNS: networking/dns.md
