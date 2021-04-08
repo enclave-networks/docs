@@ -154,7 +154,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
         2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
 
-        3. Bring the container online using `docker-compose up -d`
+        3. Bring the container up using `docker-compose up -d`
 
         4. Verify Enclave is running insider the container with `docker exec fabric enclave status`
 

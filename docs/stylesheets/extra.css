@@ -82,3 +82,8 @@ body, code, input, kbd, pre {
 .md-typeset table:not([class]) {    
     font-size: .68rem;
 }
+
+small {
+    font-size: 85%;
+    margin-bottom: 26px;
+}
