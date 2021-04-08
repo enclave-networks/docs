@@ -115,15 +115,15 @@ nav:
     - Management:
 #      - Organisations: management/organisations.md
 #      - Endpoint management: management/endpoint-management.md
-      - Policies and tags: management/policies-and-tags.md
-      - Enrolment keys: management/enrolment.md
+#      - Policies and tags: management/policies-and-tags.md
+#      - Enrolment keys: management/enrolment.md
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
     - Networking:
 #      - Topologies: networking/topologies.md
-      - IP addresses: networking/ip-addresses.md
-      - DNS: networking/dns.md
+#      - IP addresses: networking/ip-addresses.md
+#      - DNS: networking/dns.md
 #      - ARP: networking/arp.md
 #      - Multicast: networking/multicast.md
 
