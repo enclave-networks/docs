@@ -75,10 +75,10 @@ nav:
 
     - Setup:
       - Getting started:
-        - Installation: getting-started/installation.md
-        - Attach tags: getting-started/attach-tags.md
-        - Define policy: getting-started/define-policy.md
-        - Next steps: getting-started/next-steps.md
+        - 1. Installation: getting-started/installation.md
+        - 2. Attach tags: getting-started/attach-tags.md
+        - 3. Define policy: getting-started/define-policy.md
+        - 4. Next steps: getting-started/next-steps.md
 
       - Install guides:
         - Windows: install/windows.md
@@ -109,11 +109,11 @@ nav:
 #        - Certificates: concepts/security/certificates.md
 #        - Encryption: concepts/security/encryption.md
 
-#    - Management:
+    - Management:
 #      - Organisations: management/organisations.md
 #      - Endpoint management: management/endpoint-management.md
-#      - Policies and tags: management/policies-and-tags.md
-#      - Enrolment keys: management/enrolment.md
+      - Policies and tags: management/policies-and-tags.md
+      - Enrolment keys: management/enrolment.md
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
