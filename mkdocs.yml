@@ -123,7 +123,7 @@ nav:
     - Networking:
 #      - Topologies: networking/topologies.md
       - IP addresses: networking/ip-addresses.md
-#      - DNS: networking/dns.md
+      - DNS: networking/dns.md
 #      - ARP: networking/arp.md
 #      - Multicast: networking/multicast.md
 
