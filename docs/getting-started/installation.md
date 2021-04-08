@@ -33,7 +33,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
     <small>Requires Windows 7 (x64) or later.</small>
 
-    1. <a href="http://install.enclave.io/windows-x64" target="_blank" rel="noopener noreferer">Download and run</a> the latest Windows installer
+    1. <a id="downloadWindowsSetup" target="_blank" rel="noopener noreferer">Download and run</a> the latest Windows installer
     2. Provide the `Default Enrolment Key` from your account to complete the installation
 
 === "Linux"
@@ -212,3 +212,20 @@ You will need to install Enclave on at least two separate devices, systems or co
         1. We have beta support for Synology NAS drives (running on DSM 7.0 or later) via docker. Please follow our guide to [installing Enclave on your Synology NAS drive](/tutorials/how-to-securely-access-your-synology-nas-drive-with-enclave/).
 
 **Congratulations!** You've successfully enrolled a new system to your Enclave account. Once you've enrolled at least two systems, continue by [attaching tags](/getting-started/attach-tags) to your newly enrolled systems.
+
+
+
+
+<script type="text/javascript">
+  fetch("https://install.enclave.io/manifest/windows/setup.json", { method: 'get' })
+    .then(response => response.json())
+    .then(jsonResult => {
+      document.getElementById("downloadWindowsSetup").href = 
+        jsonResult.ReleaseVersions.reverse().find(releaseVersion => {
+          return releaseVersion.ReleaseType === 'GA'; 
+        })?.Packages[0].Url;
+    })
+    .catch(err => {
+      document.getElementById("downloadWindowsSetup").href = "https://portal.enclave.io/my/new-system";
+    });
+</script>

@@ -41,15 +41,18 @@ extra:
       link: https://twitter.com/enclavenetworks
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/enclave-networks/
-  # enable documentation versioning support 
-  version:
-    provider: mike
+#  enable documentation versioning support 
+#  version:
+#    provider: mike
 
 google_analytics:
   - UA-244950-15
   - auto
 
 markdown_extensions:
+#  - pymdownx.highlight:
+#      linenums: true
+#      linenums_style: pymdownx.inline
   - pymdownx.tabbed
   - pymdownx.superfences
   - footnotes
@@ -74,7 +77,7 @@ nav:
 #    - Glossary: glossary.md
 
     - Setup:
-      - Getting started:
+      - Getting started guide:
         - 1. Installation: getting-started/installation.md
         - 2. Attach tags: getting-started/attach-tags.md
         - 3. Define policy: getting-started/define-policy.md
@@ -117,9 +120,9 @@ nav:
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
-#    - Networking:
+    - Networking:
 #      - Topologies: networking/topologies.md
-#      - IP addresses: networking/ip-addresses.md
+      - IP addresses: networking/ip-addresses.md
 #      - DNS: networking/dns.md
 #      - ARP: networking/arp.md
 #      - Multicast: networking/multicast.md
@@ -148,7 +151,9 @@ nav:
 
   - Tutorials: tutorials/index.md
 
-  - KB & Troubleshooting: troubleshooting/index.md
+  - Knowledge Base: kb/index.md
+  
+  - Troubleshooting: troubleshooting/index.md
 
   #- Support:
   #  - Contact us: support/contact.md
