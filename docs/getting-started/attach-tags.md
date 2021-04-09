@@ -2,7 +2,7 @@
 
 Tags are free-form text labels attached to one or more systems in your account. Tags allow administrators to group systems together which share similar characteristics (i.e. business unit, security level or function). Tags can be manually added to an enrolled system, or an Enrolment Key can be configured to apply an initial set of tags to enrolling systems.
 
-The following graphic illustrates how a single tag might apply to several individual systems, in this example systems called `gitlab`, `teamcity` and a third system called `repo` are all members of the tag `org.build.ci-cd`.
+The following graphic illustrates how a tags could be applied to enrolled systems. Each enrolled system, the workstation `desktop-d983gw` and the server `gitlab` are each members of tag specific to their function, and both systems are also members of the `org.any` tag.
 
 ![Illustration of how tags are applied to systems](/images/quick-start/tags.png)
 
