@@ -19,7 +19,7 @@ You will need an Enrolment Key from your account to install Enclave. Enrolment K
 2. Navigate to the Enrolment Keys page and select the [`Default Enrolment Key`](https://portal.enclave.io/my/keys) from the table
 3. In the details pane, select [`View key`](https://portal.enclave.io/my/keys/1) and make a note of the 30 character Enrolment Key
 
-> **Security note:** Enrolment keys should be treated as secrets; Handle, share and store your Enrolment Keys as you would any other organisational secret.
+> **Security note:** Enrolment keys should be treated as secrets; handle, share and store your Enrolment Keys as you would any other organisational secret.
 
 <!-- -->
 
