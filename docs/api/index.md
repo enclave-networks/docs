@@ -144,7 +144,7 @@ Errors from the API are returned using the standard Problem Details format ([RFC
 We try to make the information returned in these errors as useful as possible:
 
 ```bash
-$ curl --oauth2-bearer $token -i https://preprod.api.enclave.io/org/$orgId/systems/NOTASYSTEM
+$ curl --oauth2-bearer $token -i https://api.enclave.io/org/$orgId/systems/NOTASYSTEM
 HTTP/2 403
 server: nginx
 date: Thu, 01 Apr 2021 14:50:15 GMT
@@ -154,11 +154,11 @@ pragma: no-cache
 expires: 0
 
 {
-  "type": "https://preprod.api.enclave.io/problems/type/system-not-found",
+  "type": "https://api.enclave.io/problems/type/system-not-found",
   "title": "System cannot be found",
   "status": 404,
   "detail": "System with Enclave identity NOTASYSTEM does not exist, or your access rights do not allow access to it.",
-  "instance": "https://preprod.api.enclave.io/problems/instance/7a206c0eb9208c4caab0975333ce47eb",
+  "instance": "https://api.enclave.io/problems/instance/7a206c0eb9208c4caab0975333ce47eb",
   "traceId": "00-7a206c0eb9208c4caab0975333ce47eb-3aa520cfe7bed641-00"
 }
 ```
