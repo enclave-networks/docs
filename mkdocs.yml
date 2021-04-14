@@ -115,8 +115,8 @@ nav:
 #    - Management:
 #      - Organisations: management/organisations.md
 #      - Endpoint management: management/endpoint-management.md
-#      - Policies and tags: management/policies-and-tags.md
 #      - Enrolment keys: management/enrolment.md
+      - Policy: management/policy.md
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
