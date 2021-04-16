@@ -1,6 +1,10 @@
-# Certificate lifetime management and best practice
+---
+hide: navigation
+---
 
-[Knowledge Base](/troubleshooting) / **Certificate lifetime management and best practice**
+<small>[Documentation](/) / [Knowledge Base](/kb) / Certificate lifetime management and best practice</small>
+
+# Certificate lifetime management and best practice
 
 Connections in Enclave are governed by certificates. When a certificate is issued it contains `NotBefore` and a `NotAfter` fields expressed as a 64 bit integer offset from the Unix time epoch (seconds elapsed since 00:00:00 UTC on 1 January 1970). A value of `-1` in the `NotAfter` field indicates the certificate has no effective expiry date, and has been issued in perpetuity.
 

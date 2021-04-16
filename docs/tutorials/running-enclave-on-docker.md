@@ -1,8 +1,12 @@
+---
+hide: navigation
+---
+
+<small>[Documentation](/) / [Tutorials](/tutorials) / How to run Enclave inside a Docker container</small>
+
 # How to run Enclave inside a Docker container
 
-[Tutorials](/tutorials) / **How to run Enclave inside a Docker container**
-
-> **Note:** This guide was written for Docker Community Edition 19.03.5.
+> **Note:** This guide is written for Docker Community Edition 19.03.5.
 
 ## Install Docker
 

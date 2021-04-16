@@ -1,6 +1,10 @@
-# Enclave is running but the API service is not responding
+---
+hide: navigation
+---
 
-[Troubleshooting](/troubleshooting) / **Enclave is running but the API service is not responding**
+<small>[Documentation](/) / [Troubleshooting](/troubleshooting) / Enclave is running but the API service is not responding</small>
+
+# Enclave is running but the API service is not responding
 
 In certain circumstances on Windows computers Enclave may continue to provide network connectivity to peers, but the user interface may report that the API service is not responding, preventing local administration.
 

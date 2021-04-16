@@ -1,6 +1,10 @@
-# KB937056: Static IP addresses in Windows do not save
+---
+hide: navigation
+---
 
-[Troubleshooting](/troubleshooting) / **KB937056: Static IP addresses in Windows do not save**
+<small>[Documentation](/) / [Troubleshooting](/troubleshooting) / KB937056: Static IP addresses in Windows do not save</small>
+
+# KB937056: Static IP addresses in Windows do not save
 
 In some versions of Microsoft Windows, you may manually configure the TCP/IP properties dialog to add a static IP address. After closing and re-opening the dialog, the Internet Protocol (TCP/IP) Properties dialog box still displays the default settings. Additionally, the "Obtain IP address automatically" option is selected.
 

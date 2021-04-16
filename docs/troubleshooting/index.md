@@ -1,3 +1,9 @@
+---
+hide: navigation, toc
+---
+
+<small>[Documentation](/) / Troubleshooting</small>
+
 # Troubleshooting
 
 - [Enclave is running but the API service is not responding](/troubleshooting/enclave-is-running-but-the-api-service-is-not-responding)

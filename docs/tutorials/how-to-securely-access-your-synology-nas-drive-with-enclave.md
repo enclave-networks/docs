@@ -1,6 +1,10 @@
-# How to securely access your Synology NAS drive with Enclave
+---
+hide: navigation
+---
 
-[Tutorials](/tutorials) / **How to securely access your Synology NAS drive with Enclave**
+<small>[Documentation](/) / [Tutorials](/tutorials) / How to securely access your Synology NAS drive with Enclave</small>
+
+# How to securely access your Synology NAS drive with Enclave
 
 Last Updated: January 20, 2021
 

@@ -1,21 +1,25 @@
-# Setting up Enclave on a Raspberry Pi
+---
+hide: navigation
+---
 
-[Tutorials](/tutorials) / **Setting up Enclave on a Raspberry Pi**
+<small>[Documentation](/) / [Tutorials](/tutorials) / Setting up Enclave on a Raspberry Pi</small>
+
+# Setting up Enclave on a Raspberry Pi
 
 Follow these steps to install Enclave on your Raspberry Pi running Raspbian 10 (x64):
 
 ## 1. Install
 
-Open the [download page](https://portal.enclave.io/dashboard/download) section of your account in the Enclave Portal and copy the download link to the setup script for your Raspberry Pi and run it on your device.
+Open the [download page](https://portal.enclave.io/) section of your account in the Enclave Portal and copy the download link to the setup script for your Raspberry Pi and run it on your device.
 
-## 2. Licence
+## 2. Enrol
 
-Open the [new license page](https://portal.enclave.io/dashboard/licenses/new) section of your account in the Enclave Portal and provision a new license key for your Raspberry Pi if you need to. Alternatively, if an existing license is available, make note of the license key and use that to licencing the device.
+Open the [Portal](https://portal.enclave.io/) and provision a new enrolment key for your Raspberry Pi if you need to. Alternatively, if an existing enrolment is available, make note of the enrolment key and use that to enrol the device.
 
-License the device. If you don't supply the license key at the command line, Enclave will prompt you to enter the license.
+Enrol the device. If you don't supply the enrolment key at the command line, Enclave will prompt you to enter the enrolment key.
 
 ```bash
-$ sudo enclave license
+$ sudo enclave enrol
 ```
 
 ## 3. Start
@@ -48,4 +52,4 @@ You can find your Raspberry Pi's new Enclave IP address and connectivity to othe
 * Running `ifconfig tap0`
 * Running `enclave status`
 
-> Having problems? Contact us [support@enclave.io](support@enclave.io)
+> Having problems? Contact us [support@enclave.io](mailto:support@enclave.io)

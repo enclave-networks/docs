@@ -1,3 +1,9 @@
+---
+hide: navigation, toc
+---
+
+<small>[Documentation](/) / Knowledge Base</small>
+
 # Knowledge Base
 
 - [Certificate lifetime management and best practice](/kb/certificate-lifetime-management-and-best-practice)

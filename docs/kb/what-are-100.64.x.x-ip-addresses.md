@@ -1,6 +1,10 @@
-# What are the 100.64.x.x IP addresses
+---
+hide: navigation
+---
 
-[Knowledge Base](/troubleshooting) / **What are the 100.64.x.x IP addresses**
+<small>[Documentation](/) / [Knowledge Base](/kb) / What are the 100.64.x.x IP addresses</small>
+
+# What are the 100.64.x.x IP addresses
 
 Each system or device running an Enclave overlay network requires at last one unique IP address in order to participate in that network and communicate with other Enclave peers. That IP address should;
 
