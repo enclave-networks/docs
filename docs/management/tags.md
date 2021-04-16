@@ -16,7 +16,7 @@ It is considered best practice to define a naming pattern which reflects the str
 
 A valid Tag name is composed of lower-case characters (`a-z` and `0-9` without spaces) and may be up to 64 characters long. Valid separator characters include `-` and `.`
 
-Tags names should be made up of designators which represent your organisational structure. Consider designations for your organisation which group systems by:
+Tags names should be made up of designators which represent your organisational structure. Consider designations for your organisation which group systems:
 
 * By user geography: `uk`, `london` or `nyc-office`
 * By business unit: `developers`, `sales` or `marketing`
@@ -45,7 +45,6 @@ Once defined, account Administrators can add member systems to Tags and composed
 | R22 prototype team   | `f22-raptor.rapid-prototype-team`                    | `f22-raptor.rapid-prototype-team`                                      |
 
 > **Note:** When the same Tag is applied to both the `Sender` and `Receiver` sides of the same policy Enclave will create connectivity _between_ that Tag's member systems. In this case, forming a fully connected mesh and community of interest between members of the `f22-raptor.rapid-prototype-team` Tag. You should consider the capabilities of your underlying network infrastructure when deploying a fully connected mesh. [Learn more](/management/policy#full-mesh).
-
 
 
 
