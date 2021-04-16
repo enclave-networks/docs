@@ -6,7 +6,7 @@ The following graphic illustrates how Tags could be applied to enrolled systems.
 
 ![Illustration of how tags are applied to systems](/images/quick-start/tags.png)
 
-> **Production use:** This guide suggests example Tags. You can (and should) create Tags which reflect the structure of your organisation for use in production. Visit the [Policy and Tags](/management/policies-and-tags#naming) section of the handbook to learn more about creating, naming and managing Tags.
+> **Production use:** This guide suggests example Tags. You can (and should) create Tags which reflect the structure of your organisation for use in production. Visit the [Tags](/management/tags#naming) section of the handbook to learn more about creating, naming and managing Tags.
 
 ## Add Tags
 

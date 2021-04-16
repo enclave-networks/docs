@@ -6,7 +6,7 @@ Any systems which are members of Tags added to the `Sender` side of policy may o
 
 Depending on how you arrange the Tags in your Policy you can create either a partially connected or a fully connected mesh.
 
-> **Production use:** This guide suggests creating some example policies. You can (and should) create policies which reflect the structure of your organisation for use in production. Visit the [Policy and Tags](/management/policies-and-tags#naming) section of the handbook to learn more about creating, naming and managing policies.
+> **Production use:** This guide suggests creating some example policies. You can (and should) create policies which reflect the structure of your organisation for use in production. Visit the [Policy](/management/policy#naming) section of the handbook to learn more about creating, naming and managing policies.
 
 === "Partially connected mesh"
 
@@ -30,7 +30,7 @@ Depending on how you arrange the Tags in your Policy you can create either a par
 
     Here we'll define a policy that connects any systems tagged with `org.any` to any other systems tagged with `org.any` to explicitly create a fully connected mesh.
 
-    > **Production use:** Fully connected mesh networks may create large numbers of connections between participating systems. A fully connected mesh of 16 systems will create 120 connections, but a mesh with 32 participants will create 496 connections. You should consider the capabilities of your underlying network infrastructure when deploying a fully connected mesh. [Learn more](/management/policies-and-tags#full-mesh).
+    > **Production use:** Fully connected mesh networks may create large numbers of connections between participating systems. A fully connected mesh of 16 systems will create 120 connections, but a mesh with 32 participants will create 496 connections. You should consider the capabilities of your underlying network infrastructure when deploying a fully connected mesh. [Learn more](/management/policy#fully-connected-mesh).
     
     1. In the Portal, navigate to the `Policies` page.
     2. Select the `Create a new policy` button and describe the new Policy as `Full Mesh`
@@ -41,7 +41,6 @@ Depending on how you arrange the Tags in your Policy you can create either a par
         ![Illustration of how tags are applied to systems](/images/quick-start/policy-full-mesh.png)
 
     **Congratulations!** Your new policy will take effect immediately and Enclave will quickly build direct connectivity between your enrolled systems. You've successfully built your first Enclave connection.
-    
 
 Any future systems you enrol and attach these Tags to will automatically inherit the connectivity defined in this policy, helpful in auto-scaling scenarios to minimise the management overhead of connecting additional systems.
 
