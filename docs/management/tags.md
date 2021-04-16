@@ -36,7 +36,7 @@ You may also decide to combine multiple designations into a single Tag. We sugge
 * `all-staff`
 * `contractors`
 
-Once defined, account Administrators can add member systems to Tags and composed them policies to create connectivity.
+Once defined, account Administrators can add member systems to Tags and compose Policies to create connectivity.
 
 | Policy Name          | Sender Tags                                          | Receiver Tags                                                          |
 | -------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -45,7 +45,6 @@ Once defined, account Administrators can add member systems to Tags and composed
 | R22 prototype team   | `f22-raptor.rapid-prototype-team`                    | `f22-raptor.rapid-prototype-team`                                      |
 
 > **Note:** When the same Tag is applied to both the `Sender` and `Receiver` sides of the same policy Enclave will create connectivity _between_ that Tag's member systems. In this case, forming a fully connected mesh and community of interest between members of the `f22-raptor.rapid-prototype-team` Tag. You should consider the capabilities of your underlying network infrastructure when deploying a fully connected mesh. [Learn more](/management/policy#full-mesh).
-
 
 
 
