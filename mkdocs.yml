@@ -84,7 +84,6 @@ nav:
     - Installation: getting-started/installation.md
     - Attach tags: getting-started/attach-tags.md
     - Define policy: getting-started/define-policy.md
-    - Next steps: getting-started/next-steps.md
 
   - Handbook:
     - Welcome: welcome.md
@@ -104,6 +103,7 @@ nav:
 #        - Kubernetes: setup/kubernetes.md
 #      - Network Attached Storage:
 #        - Synology NAS: setup/synology-nas.md
+      - Next steps: setup/next-steps.md
 #    - Running enclave: setup/running-enclave.md
 
 #    - Concepts:

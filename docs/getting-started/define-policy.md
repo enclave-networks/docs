@@ -1,4 +1,4 @@
-# Getting Started — Define Policy
+# Define Policy
 
 Now we'll create a Policy to enable connectivity between your tagged systems. Policies determine which systems can connect to each other, and which can't. Each Policy is composed of at least two Tags, one assigned to the `Sender` side of the policy, and the other the `Receiver` side of Policy.
 
@@ -44,4 +44,4 @@ Depending on how you arrange the Tags in your Policy you can create either a par
 
 Any future systems you enrol and attach these Tags to will automatically inherit the connectivity defined in this policy, helpful in auto-scaling scenarios to minimise the management overhead of connecting additional systems.
 
-Now that you've got your first connection, see [next steps](/getting-started/next-steps) to learn more about what you can do with Enclave.
+Now that you've got your first connection, see [next steps](/setup/next-steps) to learn more about what you can do with Enclave.

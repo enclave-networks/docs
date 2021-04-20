@@ -1,4 +1,4 @@
-# Getting Started — Installation
+# Installation
 
 In this quick start guide we will start your journey with Enclave by showing you how to enrol your first systems and use policy and tags to establish a private network between them.
 

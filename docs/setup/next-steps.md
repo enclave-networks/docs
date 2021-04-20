@@ -75,3 +75,13 @@ Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 ```
+
+## Architecture
+
+How Enclave works. [Learn more](/handbook/architecture)
+
+## Tutorials
+
+* [Configure DNS forwarding on Linux](/kb/how-to-configure-dns-forwarding-on-linux)
+
+* [What are the 100.64.x.x IP addresses](/kb/what-are-100.64.x.x-ip-addresses)
