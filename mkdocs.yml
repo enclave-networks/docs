@@ -72,23 +72,39 @@ plugins:
       lang: en
   - redirects:
       redirect_maps:
+        index.md: welcome.md
         quick-start.md: getting-started/installation.md
         keywords/full-mesh.md: management/policy.md
         keywords/dns-load-balancing.md: networking/dns.md
 
 nav:
-  - Home: 
-    - Enclave documentation: index.md
+  - Home: index.md
+
+  - Getting started:
+    - Installation: getting-started/installation.md
+    - Attach tags: getting-started/attach-tags.md
+    - Define policy: getting-started/define-policy.md
+    - Next steps: getting-started/next-steps.md
+
+  - Handbook:
+    - Welcome: welcome.md
 #    - Community: community.md
 #    - Glossary: glossary.md
-
     - Setup:
-      - Getting started guide:
-        - 1. Installation: getting-started/installation.md
-        - 2. Attach tags: getting-started/attach-tags.md
-        - 3. Define policy: getting-started/define-policy.md
-        - 4. Next steps: getting-started/next-steps.md
       - Windows: setup/windows.md
+#      - Linux:
+#        - Ubuntu / Debian: setup/ubuntu.md
+#        - CentOS / RHEL: setup/rhel.md
+#        - Fedora: setup/fedora.md
+#        - Amazon Linux: setup/amazon-linux.md
+#        - Arch Linux: setup/arch.md
+#        - Raspbian: setup/raspbian.md
+#      - Containers:
+#        - Docker: setup/docker.md
+#        - Kubernetes: setup/kubernetes.md
+#      - Network Attached Storage:
+#        - Synology NAS: setup/synology-nas.md
+#    - Running enclave: setup/running-enclave.md
 
 #    - Concepts:
 #      - Principles: concepts/principles.md
@@ -107,8 +123,8 @@ nav:
 #      - Organisations: management/organisations.md
 #      - Endpoint management: management/endpoint-management.md
 #      - Enrolment keys: management/enrolment.md
-      - Policy: management/policy.md
       - Tags: management/tags.md
+      - Policy: management/policy.md
 #      - Profiles: management/profiles.md
 #      - Examples: management/examples.md
 
@@ -118,6 +134,11 @@ nav:
 #      - DNS: networking/dns.md
 #      - ARP: networking/arp.md
 #      - Multicast: networking/multicast.md
+
+    - API:
+        Overview: api/index.md
+        Reference: api/reference.md
+#        Guides: api/guides.md
 
 #    - Fabric commands (CLI):
 #      - All:
@@ -135,11 +156,6 @@ nav:
 #        - list-adapters: cli/list-adapters.md
 #        - install-adapter: cli/install-adapter.md
 #        - remove-adapter: cli/remove-adapter.md
-
-  - REST API:
-      Overview: api/index.md
-      Reference: api/reference.md
-#      Guides: api/guides.md
 
   - Tutorials: tutorials/index.md
 
