@@ -88,22 +88,6 @@ nav:
         - 2. Attach tags: getting-started/attach-tags.md
         - 3. Define policy: getting-started/define-policy.md
         - 4. Next steps: getting-started/next-steps.md
-
-      - Install guides:
-        - Windows: install/windows.md
-        - Linux:
-          - Ubuntu / Debian: install/ubuntu.md
-#          - CentOS / RHEL: install/rhel.md
-#          - Fedora: install/fedora.md
-#          - Amazon Linux: install/amazon-linux.md
-#          - Arch Linux: install/arch.md
-#          - Raspbian: install/raspbian.md
-#        - Containers:
-#          - Docker: install/docker.md
-#          - Kubernetes: install/kubernetes.md
-#        - Network Attached Storage:
-#          - Synology NAS: install/synology-nas.md
-#      - Running enclave: install/running-enclave.md
       - Windows: setup/windows.md
 
 #    - Concepts:
