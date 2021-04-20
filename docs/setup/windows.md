@@ -23,7 +23,7 @@
 
 **You're all set!** You've successfully enrolled a new system to your Enclave account.
 
-## Unattended Installation
+## Unattended installation
 
 The Enclave Windows installer supports unattended installations for larger deployments. Run `enclave_setup.exe` with the `/enrol XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` option to install and enrol Enclave without end-user interaction (don't forget to provide a valid enrolment key). 
 
@@ -44,20 +44,6 @@ Alternatively, to perform an unattended roll-out of Enclave without supplying an
     ```
     C:\> enclave_setup.exe /unattended
     ```
-
-## Next steps
-
-#### Build a network
-
-Visit the [building your first connection](/guides/quick-start#getting-connected) section of our getting started guide to learn how to control Enclave.
-
-#### Find your IP address
-
-Open the Windows tray application to find your **Local Address** or run `enclave status` from a command prompt.
-
-#### Test connectivity
-
-Pings are a great start, but don't forget to check the local Windows firewall configuration to ensure ICMP traffic is permitted.
 
 ## Starting and stopping Enclave
 
