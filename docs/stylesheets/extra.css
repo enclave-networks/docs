@@ -45,14 +45,6 @@ body, code, input, kbd, pre {
     padding: .5em 0 0 0;
 }
 
-/* increase top/bottom spacing on ol and ul */
-.md-typeset ol, 
-.md-typeset pre, 
-.md-typeset ul {
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
-}
-
 .md-typeset ol li, .md-typeset ul li {
     margin-bottom: .6em;
 }
@@ -86,4 +78,69 @@ body, code, input, kbd, pre {
 small {
     font-size: 85%;
     margin-bottom: 26px;
+}
+
+.download-container {
+    display: inline-block;
+    background-color: #f5f5f5;
+    padding: 24px 20px 8px 20px;
+    margin: 0 0 14px 0;
+    text-align: center;
+    border-radius: 8px;
+    min-width: 480px;
+}
+
+.download-container button {    
+    margin: 0;
+    padding: 12px 30px;
+    background-color: #71A9F7;
+    color: #fff;
+    font-family: "Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace;
+    font-size: .77em;
+    font-weight: 500;
+    letter-spacing: .03em;
+    transition: all .1s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.download-container button:hover {
+    background-color: #8DC5FF;
+}
+
+.download-container button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(127 183 255 / 40%);
+}
+
+.download-container #setup-url {
+    font-size: 75%;
+    margin-bottom: 26px;
+}
+
+.checksum-container {
+    text-align: left;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.checksum-container p {
+    font-size: .76em;
+    margin: 0 !important;
+}
+
+.checksum-container #checksum {
+    font-size: .87em;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 5px 6px;
+    border-radius: 4px;
+    margin: 5px 0 12px 0;
+    display: block;
+    user-select: all;
+}
 }

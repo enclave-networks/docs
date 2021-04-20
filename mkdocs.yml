@@ -1,4 +1,5 @@
 site_name: 'Enclave Documentation'
+site_description: 'Deploy, manage and scale your Enclave networks'
 
 theme:
   name: 'material'
@@ -58,6 +59,7 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.superfences
   - footnotes
+  - toc
 
 extra_css:
   - stylesheets/extra.css
