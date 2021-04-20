@@ -2,7 +2,7 @@
 
 ## Find your Enclave IP address
 
-Each system (or device) running Enclave is automatically assigned an IP address from the default range 100.64.0.0/10. [Learn more](/networking/ip-addresses).
+Each system (or device) running Enclave is automatically assigned an IP address from the default range 100.64.0.0/10.
 
 In order to send data to other systems in your Enclave you will need to know the IP address of your peers, and they will need to know yours. 
 
