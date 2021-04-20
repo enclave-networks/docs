@@ -104,6 +104,7 @@ nav:
 #        - Network Attached Storage:
 #          - Synology NAS: install/synology-nas.md
 #      - Running enclave: install/running-enclave.md
+      - Windows: setup/windows.md
 
 #    - Concepts:
 #      - Principles: concepts/principles.md
