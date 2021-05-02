@@ -143,4 +143,9 @@ small {
     display: block;
     user-select: all;
 }
+
+.md-clipboard {
+    top: .4em;
+    right: .4em;
+}
 }
