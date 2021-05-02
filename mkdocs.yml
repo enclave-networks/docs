@@ -90,8 +90,10 @@ nav:
 #    - Community: community.md
 #    - Glossary: glossary.md
     - Setup:
+      - Linux: setup/linux.md
       - Windows: setup/windows.md
-#      - Linux:
+      - Containers: setup/containers.md
+      - Network attached storage: setup/nas.md
 #        - Ubuntu / Debian: setup/ubuntu.md
 #        - CentOS / RHEL: setup/rhel.md
 #        - Fedora: setup/fedora.md
