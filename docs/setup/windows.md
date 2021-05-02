@@ -39,7 +39,7 @@ Alternatively, to perform an unattended roll-out of Enclave without supplying an
 
 === "Without an Enrolment Key"
 
-    Perform an unattended installation of Enclave without supplying an enrolment key
+    Perform an unattended installation of Enclave without supplying an enrolment key.
 
     ```
     C:\> enclave_setup.exe /unattended
