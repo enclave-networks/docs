@@ -1,4 +1,4 @@
-# Getting Started — Next Steps
+# Next Steps
 
 ## Find your Enclave IP address
 
