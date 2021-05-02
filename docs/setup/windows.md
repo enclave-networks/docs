@@ -77,6 +77,7 @@ If an install goes horribly wrong, remove Enclave using the uninstaller and try 
 
 For troubleshooting and errors, use the site search or visit our [troubleshooting](/troubleshooting/) section to look for information about common error messages.
 
+If your installation fails and you are unable to resolve the problem, please contact <a href="mailto:support@enclave.io">support@enclave.io</a>.
 
 
 <script type="text/javascript">

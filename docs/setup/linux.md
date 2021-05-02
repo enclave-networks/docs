@@ -95,15 +95,34 @@ The supervisor service responds to the Enclave CLI verbs `start` and `stop` to c
 
 ## Updating Enclave
 
-Enclave is updated using the standard apt package manager commands `apt-get update && apt-get upgrade`.
+=== "Ubuntu / Debian / Raspbian"
+
+    Enclave is updated using the standard apt package manager.
+
+        sudo apt-get update && sudo apt-get upgrade
+
+=== "Other"
+
+    Upgrade to the latest version of Enclave by running our quick-start script.
+
+        bash <(curl -Ss https://install.enclave.io/setup.sh)
 
 ## Uninstalling Enclave
 
-**TODO** `apt-get remove` and `apt-get purge`
+=== "Ubuntu / Debian / Raspbian"
 
-> **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
+    Remove the Enclave package while leaving configuration files on the system.
+
+        sudo apt-get remove enclave
+
+    Remove the Enclave package and any configuration files (including private any keys generated during enrolment).
+
+        sudo apt-get purge enclave
+
+    > **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
 
 ## What to do if the install fails
 
+If an install goes horribly wrong or is interrupted, try re-running the Enclave `setup.sh` script to restart the process. If your installation fails and you are unable to resolve the problem by retrying, please contact <a href="mailto:support@enclave.io">support@enclave.io</a>.
 
-
+For troubleshooting and errors, use the site search or visit our [troubleshooting](/troubleshooting/) section to look for information about common error messages.
