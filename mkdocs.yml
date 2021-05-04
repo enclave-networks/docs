@@ -80,15 +80,17 @@ plugins:
 nav:
   - Home: index.md
 
-  - Getting started:
-    - Installation: getting-started/installation.md
-    - Attach tags: getting-started/attach-tags.md
-    - Define policy: getting-started/define-policy.md
-
   - Handbook:
     - Welcome: welcome.md
 #    - Community: community.md
 #    - Glossary: glossary.md
+
+    - Getting started:
+      - Installation: getting-started/installation.md
+      - Attach tags: getting-started/attach-tags.md
+      - Define policy: getting-started/define-policy.md
+      - Next steps: getting-started/next-steps.md
+
     - Setup:
       - Linux: setup/linux.md
       - Windows: setup/windows.md
@@ -105,7 +107,6 @@ nav:
 #        - Kubernetes: setup/kubernetes.md
 #      - Network Attached Storage:
 #        - Synology NAS: setup/synology-nas.md
-      - Next steps: setup/next-steps.md
 #    - Running enclave: setup/running-enclave.md
 
 #    - Concepts:

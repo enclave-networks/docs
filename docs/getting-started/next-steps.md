@@ -1,8 +1,8 @@
-# Next Steps
+# Next steps
 
 ## Find your Enclave IP address
 
-Each system (or device) running Enclave is automatically assigned an IP address from the default range 100.64.0.0/10.
+Each system (or device) running Enclave is automatically assigned an IP address from the default range 100.64.0.0/10. [Learn more](/networking/ip-addresses).
 
 In order to send data to other systems in your Enclave you will need to know the IP address of your peers, and they will need to know yours. 
 
@@ -75,3 +75,13 @@ Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 Reply from 100.81.14.231: bytes=32 time=1ms TTL=128
 ```
+
+## Architecture
+
+How Enclave works. [Learn more](/handbook/architecture)
+
+## Tutorials
+
+* [Configure DNS forwarding on Linux](/kb/how-to-configure-dns-forwarding-on-linux)
+
+* [What are the 100.64.x.x IP addresses](/kb/what-are-100.64.x.x-ip-addresses)
