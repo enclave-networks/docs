@@ -77,6 +77,9 @@ plugins:
         keywords/full-mesh.md: management/policy.md
         keywords/dns-load-balancing.md: networking/dns.md
 
+        # Permalinks for use in code references and status messages
+        go/api.md: api/index.md
+
 nav:
   - Home: index.md
 
