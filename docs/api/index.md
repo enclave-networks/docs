@@ -137,6 +137,15 @@ The above example creates a new Enrolment Key called "My New Key", and returns t
 
 All date/time values returned from our API are formatted in ISO8601 format (e.g. `2021-03-31T11:31:44.3846701Z`), and always in the UTC timezone.
 
+## User-Agent Header
+
+All requests to the Enclave API must provide a `User-Agent` header (your requests will fail without one). We ask that you specify a `User-Agent` 
+describing your application, to help identify it. Here's an example with curl:
+
+```bash
+$ curl -A "my-app-integration" --oauth2-bearer $token https://api.enclave.io/org/$orgId/systems?search=Jane
+```
+
 ## API Errors
 
 Errors from the API are returned using the standard Problem Details format ([RFC 7807](https://tools.ietf.org/html/rfc7807)).
