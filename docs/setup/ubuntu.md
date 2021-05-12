@@ -22,20 +22,25 @@
 
 **Congratulations!** You've successfully enrolled a new system to your Enclave account.
 
-<!--- ## Unattended Installation --->
+<!--- ## Unattended Installation
 
+Presently doesn't work.
+ --->
+ 
 ## Starting and stopping Enclave
 
-The installer creates a lightweight supervisor service set to run at system start which is responsible for starting the Enclave fabric. The supervisor service exists to start, stop and restart Enclave fabric in the background as daemon child processes.
+The Enclave installer creates a lightweight supervisor service set to run at system start which is responsible for starting the Enclave fabric. The supervisor service exists to start, stop and restart Enclave fabric in the background as daemon child processes.
 
-The supervisor service responds to the Enclave CLI verbs [start](/handbook/fabric/cli/start) and [stop](/handbook/fabric/cli/stop) to control the Fabric.
+The supervisor service responds to the Enclave CLI verbs [start](/cli/start) and [stop](/cli/stop) to control the Fabric.
 
 ## Updating Enclave
 
-![Enclave tray application showing an available update](https://via.placeholder.com/680x460)
+Enclave is updated using the standard apt package manager commands `apt-get update && apt-get upgrade`.
 
 ## Uninstalling Enclave
 
 **TODO** `apt-get remove` and `apt-get purge`
 
 > **Note:** Enclave does not backup a system's private keys. Lost or deleted private keys are not recoverable. If a system's configuration and private keys are lost, to use that system with Enclave again it must be re-enrolled.
+
+## What to do if the install fails
