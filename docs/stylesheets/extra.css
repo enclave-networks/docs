@@ -117,7 +117,7 @@ small {
     box-shadow: 0 0 0 3px rgb(127 183 255 / 40%);
 }
 
-.download-container #setup-url {
+.download-container .download-url {
     font-size: 75%;
     margin-bottom: 26px;
 }
@@ -133,7 +133,7 @@ small {
     margin: 0 !important;
 }
 
-.checksum-container #checksum {
+.checksum-container .checksum {
     font-size: .87em;
     font-weight: normal;
     background-color: #fff;
@@ -147,5 +147,4 @@ small {
 .md-clipboard {
     top: .4em;
     right: .4em;
-}
 }

@@ -16,14 +16,14 @@ To follow this guide, you will need:
 You will need an Enrolment Key from your account to install Enclave. Enrolment Keys allow you to enrol new systems or devices to your Enclave account.
 
 1. Login to your account in the [Enclave Portal](https://portal.enclave.io/)
-2. Navigate to the Enrolment Keys page and select the [`Default Enrolment Key`](https://portal.enclave.io/my/keys) from the table
+2. Navigate to the Enrolment Keys page and select the [`Quick Start Key`](https://portal.enclave.io/my/keys) from the table
 3. In the details pane, select [`View key`](https://portal.enclave.io/my/keys/1) and make a note of the 30 character Enrolment Key
 
 > **Security note:** Enrolment keys should be treated as secrets; handle, share and store your Enrolment Keys as you would any other organisational secret.
 
 <!-- -->
 
-> **Production use:** This guide uses a `Default Enrolment Key` which was automatically created when you first registered for an account. You can (and should) create your own Enrolment Keys for use in production. Visit the [Enrolment Keys](/management/enrolment) section of the handbook to learn more about creating and managing Enrolment Keys.
+> **Production use:** This guide uses a `Quick Start Key` which was automatically created when you first registered for an account. You can (and should) create your own Enrolment Keys for use in production. Visit the [Enrolment Keys](/management/enrolment) section of the handbook to learn more about creating and managing Enrolment Keys.
 
 ## Install Enclave
 
@@ -36,13 +36,31 @@ You will need to install Enclave on at least two separate devices, systems or co
     1. Download and run the latest Windows installer
         <div class="download-container">
           <a id="download-windows-setup" target="_blank" rel="noopener noreferer"><button>Download Enclave for Windows</button></a>
-          <p id="setup-url"></p>
+          <p id="setup-url" class="download-url"></p>
           <div class="checksum-container">
-          <p>Package checksum (<span id="hash-alg">loading ...</span>)</p>
-          <p><code id="checksum">----------------------------------------------------------------</code></p>
+          <p>Package checksum (<span id="windows-hash-alg">loading ...</span>)</p>
+          <p><code id="windows-checksum" class="checksum">----------------------------------------------------------------</code></p>
           </div>
         </div>
-    2. Provide the `Default Enrolment Key` from your account to complete the installation
+    2. Provide the `Quick Start Key` from your account to complete the installation
+
+=== "macOS"
+
+    <small>Requires at least OSX 10.10 (Yosemite).</small>
+
+    1. Install the [homebrew package manager](https://brew.sh/) if you don't already have it.
+
+    2. Install Enclave
+    ```bash
+    brew install enclave
+    ```
+    You will likely be prompted to provide local credentials.  
+
+    1. Once installed, enrol your system with your Enclave Organisation   
+    ```bash
+    sudo enclave enrol
+    ```
+    Provide the `Quick Start Key` from your account to complete the installation.
 
 === "Linux"
 
@@ -66,7 +84,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 sudo apt-get install enclave
 
-        4. Provide your `Default Enrolment Key` to complete the installation
+        4. Provide your `Quick Start Key` to complete the installation
 
     === "CentOS / RHEL"
 
@@ -76,7 +94,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
 
-        2. Provide your `Default Enrolment Key` to complete the installation
+        2. Provide your `Quick Start Key` to complete the installation
 
     === "Fedora"
 
@@ -86,7 +104,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
 
-        2. Provide your `Default Enrolment Key` to complete the installation
+        2. Provide your `Quick Start Key` to complete the installation
 
     === "Amazon Linux"
 
@@ -96,7 +114,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
 
-        2. Provide your `Default Enrolment Key` to complete the installation
+        2. Provide your `Quick Start Key` to complete the installation
 
     === "Arch Linux"
 
@@ -106,7 +124,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 bash <(curl -Ss https://install.enclave.io/setup.sh)
 
-        2. Provide your `Default Enrolment Key` to complete the installation
+        2. Provide your `Quick Start Key` to complete the installation
 
     === "Raspbian"
 
@@ -126,7 +144,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 sudo apt-get install enclave
 
-        4. Provide your `Default Enrolment Key` to complete the installation
+        4. Provide your `Quick Start Key` to complete the installation
 
 === "Containers"
 
@@ -160,7 +178,7 @@ You will need to install Enclave on at least two separate devices, systems or co
               enclave-logs:
             ```
 
-        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
+        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Quick Start Key`
 
         3. Bring the container up using `docker-compose up -d`
 
@@ -207,7 +225,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
             > See [pod.yaml](https://github.com/enclave-networks/kubernetes/blob/main/examples/nginx-enclave-sidecar/pod.yaml) for a complete example. 
 
-        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Default Enrolment Key`
+        2. Replace `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` with your `Quick Start Key`
 
         3. Push your changes to the cluster using `kubectl apply` or your preferred method
 
@@ -236,8 +254,8 @@ You will need to install Enclave on at least two separate devices, systems or co
 
       document.getElementById("download-windows-setup").href = url;
       document.getElementById("setup-url").innerHTML = url;
-      document.getElementById("hash-alg").innerHTML = hashAlg.toLowerCase();
-      document.getElementById("checksum").innerHTML = base64ToHex(hash);
+      document.getElementById("windows-hash-alg").innerHTML = hashAlg.toLowerCase();
+      document.getElementById("windows-checksum").innerHTML = base64ToHex(hash);
     })
     .catch(err => {
       console.log(err);

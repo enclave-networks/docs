@@ -7,15 +7,15 @@
 1. Download and run the latest Windows installer
     <div class="download-container">
       <a id="download-windows-setup" target="_blank" rel="noopener noreferer"><button>Download Enclave for Windows</button></a>
-      <p id="setup-url"></p>
+      <p id="setup-url" class="download-url"></p>
       <div class="checksum-container">
       <p>Package checksum (<span id="hash-alg">loading ...</span>)</p>
-      <p><code id="checksum">----------------------------------------------------------------</code></p>
+      <p><code id="checksum" class="checksum">----------------------------------------------------------------</code></p>
       </div>
     </div>
 
 2. Run the installer. Administrator privileges are required, but the installer will prompt for privilege elevation if necessary.
-3. You will need to provide a valid [Enrolment key](/handbook/portal/enrolment-keys) from your [Portal](https://portal.enclave.io/) account to complete installation.
+3. You will need to provide a valid Enrolment Key from your [Portal](https://portal.enclave.io/) account to complete installation.
 4. Once installed, Enclave will start and add a new tray icon to your system tray. If the Enclave tray icon is not visible, click the up arrow to find it in the hidden system tray overflow area.
   ![/images/setup/enclave-tray-icon.png](/images/setup/enclave-tray-icon.png)
 5. Right click on the tray icon when you need to open Enclave.

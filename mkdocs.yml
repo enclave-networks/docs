@@ -65,7 +65,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/extra.js
+  - javascript/extra.js
 
 plugins:
   - search:
@@ -95,8 +95,9 @@ nav:
       - Next steps: getting-started/next-steps.md
 
     - Setup:
-      - Linux: setup/linux.md
       - Windows: setup/windows.md
+      - macOS: setup/macos.md
+      - Linux: setup/linux.md
       - Containers: setup/containers.md
       - Network attached storage: setup/nas.md
 #        - Ubuntu / Debian: setup/ubuntu.md
