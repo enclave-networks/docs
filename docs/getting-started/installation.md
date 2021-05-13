@@ -8,7 +8,7 @@ In this quick start guide we will start your journey with Enclave by showing you
 
 To follow this guide, you will need:
 
-1. An Enclave account, it's [free to register](https://portal.enclave.io/account/register)
+1. An Enclave account, it's [free to register](https://portal.enclave.io/register)
 2. At least two computers, devices or containers where you can install software
 
 ## Get an Enrolment Key

@@ -14,7 +14,7 @@ In this article we will show you how to easily provide private remote access to 
 
 Before you begin, you will need:
 
-* An Enclave account (Register [here](https://portal.enclave.io/account/register), for free)
+* An Enclave account (Register [here](https://portal.enclave.io/register), for free)
 * A Synology NAS drive running at least [DSM 7.0](https://www.synology.com/en-uk/beta/DSM70Beta) (currently in Beta)
 * Administrative access to your Synology NAS drive
 
