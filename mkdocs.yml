@@ -79,6 +79,7 @@ plugins:
 
         # Permalinks for use in code references and status messages
         go/api.md: api/index.md
+        go/quick-start.md: getting-started/installation.md
 
 nav:
   - Home: index.md
