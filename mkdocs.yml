@@ -80,6 +80,9 @@ plugins:
         # Permalinks for use in code references and status messages
         go/api.md: api/index.md
         go/quick-start.md: getting-started/installation.md
+        go/tutorial-pi.md: tutorials/setting-up-enclave-on-a-raspberry-pi.md
+        go/tutorial-docker.md: tutorials/running-enclave-on-docker.md
+        go/tutorial-synology.md: tutorials/how-to-securely-access-your-synology-nas-drive-with-enclave.md
 
 nav:
   - Home: index.md
