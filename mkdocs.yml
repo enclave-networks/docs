@@ -3,6 +3,7 @@ site_description: 'Deploy, manage and scale your Enclave networks'
 
 theme:
   name: 'material'
+  custom_dir: overrides
 
   features:
     - navigation.sections
