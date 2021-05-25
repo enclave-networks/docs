@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-<meta property="og:title" content="Simplify, secure and automate your private networks" />
+<meta property="og:site_name" content="{{ config.site_name }}" />
+<meta property="og:title" content="{{ config.site_name }}" />
 <meta property="og:locale" content="en" />
-<meta property="og:description" content="Connect all of your computers, servers, cloud instances and containers across any infrastructure with secure private networks that just work." />
-<meta property="og:url" content="https://enclave.io/" />
-<meta property="og:site_name" content="Enclave" />
-<meta property="twitter:title" content="Simplify, secure and automate your private networks" />
+<meta property="og:description" content="{{ config.site_description }}" />
+<meta property="og:url" content="https://docs.enclave.io/" />
+
+<meta property="twitter:title" content="{{ config.site_name }}" />
 
 <meta property="og:type" content="website" />
 <meta property="og:image" itemprop="image" content="https://enclave.io/uploads/feature-1200x630-enclave.png" />
