@@ -84,7 +84,11 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 sudo apt-get install enclave
 
-        4. Provide your `Quick Start Key` to complete the installation
+        4. Enrol
+
+                sudo enclave enrol
+
+        5. Provide your `Quick Start Key` to complete the installation
 
     === "CentOS / RHEL"
 
@@ -136,7 +140,7 @@ You will need to install Enclave on at least two separate devices, systems or co
 
         2. Add Enclave’s package signing key and repository to apt sources
 
-                curl -fsSL https://packages.enclave.io/apt/enclave.stable.gpg | sudo apt-key add -
+            curl -fsSL https://packages.enclave.io/apt/enclave.stable.gpg | sudo apt-key add -
             curl -fsSL https://packages.enclave.io/apt/enclave.stable.list | sudo tee /etc/apt/sources.list.d/enclave.stable.list
             sudo apt-get update
 
@@ -144,7 +148,11 @@ You will need to install Enclave on at least two separate devices, systems or co
 
                 sudo apt-get install enclave
 
-        4. Provide your `Quick Start Key` to complete the installation
+        4. Enrol
+
+                sudo enclave enrol
+
+        5. Provide your `Quick Start Key` to complete the installation
 
 === "Containers"
 

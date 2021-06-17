@@ -20,7 +20,11 @@
 
             sudo apt-get install enclave
 
-    4. Provide your `Default Enrolment Key` to complete the installation
+    4. Enrol
+
+            sudo enclave enrol
+
+    5. Provide your `Default Enrolment Key` to complete the installation
 
 === "CentOS / RHEL"
 
@@ -80,7 +84,11 @@
 
             sudo apt-get install enclave
 
-    4. Provide your `Default Enrolment Key` to complete the installation
+    4. Enrol
+
+            sudo enclave enrol
+
+    5. Provide your `Default Enrolment Key` to complete the installation
 
 <!--- ## Unattended Installation
 
