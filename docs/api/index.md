@@ -154,7 +154,7 @@ We try to make the information returned in these errors as useful as possible:
 
 ```bash
 $ curl --oauth2-bearer $token -i https://api.enclave.io/org/$orgId/systems/NOTASYSTEM
-HTTP/2 403
+HTTP/2 404
 server: nginx
 date: Thu, 01 Apr 2021 14:50:15 GMT
 content-type: application/problem+json; charset=utf-8
