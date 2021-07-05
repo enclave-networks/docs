@@ -92,9 +92,9 @@
 
 ## Unattended installation
 
-Enclave supports unattended installations by setting the Enrolment key in a specially named environment variable: `ENCLAVE_ENROLMENT_KEY`. 
+Enclave supports unattended installations by setting the Enrolment Key in a specially named environment variable: `ENCLAVE_ENROLMENT_KEY`. 
 
-1. Set the enrolment key as an environment variable
+1. Set the Enrolment Key you want to use as an environment variable
     ```
     $ export ENCLAVE_ENROLMENT_KEY=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
     ```
