@@ -90,11 +90,22 @@
 
     5. Provide your `Default Enrolment Key` to complete the installation
 
-<!--- ## Unattended Installation
+## Unattended installation
 
-Presently doesn't work.
- --->
- 
+Enclave supports unattended installations by setting the Enrolment key in a specially named environment variable: `ENCLAVE_ENROLMENT_KEY`. 
+
+1. Set the enrolment key as an environment variable
+    ```
+    $ export ENCLAVE_ENROLMENT_KEY=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+    ```
+
+2. Enrol the system using `enclave enrol`. If you're using `sudo` don't forget to include the `-E` argument (also `--preserve-env`) to preserve environment variables.
+    ```
+    $ sudo -E enclave enrol
+    ```
+
+3. Enclave will automatically enrol and daemonise as a background process.
+
 ## Starting and stopping Enclave
 
 The Enclave installer creates a lightweight supervisor service set to run at system start which is responsible for starting the Enclave fabric. The supervisor service exists to start, stop and restart Enclave fabric in the background as daemon child processes.
