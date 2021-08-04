@@ -6,7 +6,7 @@ hide: navigation
 
 # How to configure DNS forwarding on Linux
 
-> This page only applies if you're running Enclave on Linux. Under Windows Enclave automatically manages the local name server search order.
+> This page only applies if you're running Enclave on Linux. Under Windows and macOS Enclave automatically manages the local name server search order.
 
 Enclave runs a local name server bound to the virtual network IP address of each profile. By default this service runs on port 53 and answers queries for names inside the `.enclave.` zone.
 
