@@ -61,6 +61,7 @@ markdown_extensions:
   - pymdownx.superfences
   - footnotes
   - toc
+  - attr_list
 
 extra_css:
   - stylesheets/extra.css
@@ -90,7 +91,7 @@ nav:
 
   - Handbook:
     - Welcome: welcome.md
-#    - Community: community.md
+    - Community support: community-support.md
 #    - Glossary: glossary.md
 
     - Getting started:
