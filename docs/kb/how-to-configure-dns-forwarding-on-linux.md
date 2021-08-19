@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Knowledge Base](/kb) / How to configure DNS forwarding on Linux</small>
+<small>[Documentation](/) / [Knowledge Base](/kb)</small>
 
 # How to configure DNS forwarding on Linux
 
@@ -104,4 +104,10 @@ ubuntu@localhost:~$ sudo systemctl restart systemd-resolved
 
 > **Important:** `100.66.110.73` is not the address of your local Enclave name server. Find your system's virtual address by running `enclave status` and look for the virtual address under local identity. Alternatively use `ip addr`.
 
-> **Important:** If after setting the `DNS=100.66.110.73` in `/etc/systemd/resolved.conf` you find that name resolution fails with the message `Name or service not known` check that `/etc/resolv.conf` correctly points to the local systemd-resolved DNS stub resolver address `127.0.0.53` and that the systemd-resolved stub resolver service is running.   
+> **Important:** If after setting the `DNS=100.66.110.73` in `/etc/systemd/resolved.conf` you find that name resolution fails with the message `Name or service not known` check that `/etc/resolv.conf` correctly points to the local systemd-resolved DNS stub resolver address `127.0.0.53` and that the systemd-resolved stub resolver service is running.
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

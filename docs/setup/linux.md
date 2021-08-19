@@ -120,7 +120,7 @@ The supervisor service responds to the Enclave CLI verbs `start` and `stop` to c
 
         sudo apt-get update && sudo apt-get upgrade
 
-=== "Other"
+=== "Other OS"
 
     Upgrade to the latest version of Enclave by running our quick-start script.
 

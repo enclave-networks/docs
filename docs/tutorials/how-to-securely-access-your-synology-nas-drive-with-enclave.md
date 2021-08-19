@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Tutorials](/tutorials) / How to securely access your Synology NAS drive with Enclave</small>
+<small>[Documentation](/) / [Tutorials](/tutorials)</small>
 
 # How to securely access your Synology NAS drive with Enclave
 
@@ -229,4 +229,8 @@ This tutorial requires Docker to be installed on your Synology NAS drive which, 
 <br />
 <br />
 
-Having problems? Contact us [support@enclave.io](mailto:support@enclave.io)
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

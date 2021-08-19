@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Knowledge Base](/kb) / What are the 100.64.x.x IP addresses</small>
+<small>[Documentation](/) / [Knowledge Base](/kb)</small>
 
 # What are the 100.64.x.x IP addresses
 
@@ -39,3 +39,9 @@ As this range is reserved for carriers and ISP, never exposed either to the cust
 ## 100.64.0.0/10
 
 100.64.0.0/10 by default, but configurable. Enclave will assign each participating host, device or system with an IP address from the 100.64.0.0/10 range, but Enclave can be configured to use *ANY* IPv4 address allowing incredible flexibility when during migrations, consolidation and when working with esoteric and inflexible underlay networks.
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

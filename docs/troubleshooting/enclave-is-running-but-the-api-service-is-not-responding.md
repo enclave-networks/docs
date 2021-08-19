@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Troubleshooting](/troubleshooting) / Enclave is running but the API service is not responding</small>
+<small>[Documentation](/) / [Troubleshooting](/troubleshooting)</small>
 
 # Enclave is running but the API service is not responding
 
@@ -28,4 +28,10 @@ This issue has been fixed in the latest version of Enclave. Customers still runn
 
 ## Notes
 
-> **Important:** This is not a problem caused by Enclave, but a bug in dotnet core. Some customers may encounter this bug during routine use of the product, which may also interfere an administrator's ability to use Enclave effectively.
+This is not a problem caused by Enclave, but a bug in dotnet core. Some customers may encounter this bug during routine use of the product, which may also interfere an administrator's ability to use Enclave effectively.
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

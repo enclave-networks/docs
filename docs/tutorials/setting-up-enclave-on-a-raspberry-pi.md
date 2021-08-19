@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Tutorials](/tutorials) / Setting up Enclave on a Raspberry Pi</small>
+<small>[Documentation](/) / [Tutorials](/tutorials)</small>
 
 # Setting up Enclave on a Raspberry Pi
 
@@ -52,4 +52,8 @@ You can find your Raspberry Pi's new Enclave IP address and connectivity to othe
 * Running `ifconfig tap0`
 * Running `enclave status`
 
-> Having problems? Contact us [support@enclave.io](mailto:support@enclave.io)
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

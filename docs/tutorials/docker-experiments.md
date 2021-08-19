@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Tutorials](/tutorials) / Connectivity experiments using Enclave and Docker</small>
+<small>[Documentation](/) / [Tutorials](/tutorials)</small>
 
 # Connectivity experiments using Enclave and Docker
 
@@ -50,3 +50,9 @@ Once the Mattermost container is running and Enclave is installed, access the Ma
 1. Allow other parties with access to this container (either directly through the local network interface, or remotely via Enclave) to self-register for an account on this Mattermost instance. Navigate to `System Console` > `Signup` > `Enable Open Server`.
 
 1. Create a new team on your Mattermost instance and allow any user with an account to join this team `Team Settings` > `Allow any user with an account on this server to join this team` > `Select Yes`.
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

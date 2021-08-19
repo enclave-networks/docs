@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Tutorials](/tutorials) / How to run Enclave inside a Docker container</small>
+<small>[Documentation](/) / [Tutorials](/tutorials)</small>
 
 # How to run Enclave inside a Docker container
 
@@ -76,3 +76,9 @@ tap0: flags=67<UP,BROADCAST,RUNNING>  mtu 2800
         TX packets 18  bytes 1412 (1.4 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>

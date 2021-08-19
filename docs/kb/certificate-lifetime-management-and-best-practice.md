@@ -2,7 +2,7 @@
 hide: navigation
 ---
 
-<small>[Documentation](/) / [Knowledge Base](/kb) / Certificate lifetime management and best practice</small>
+<small>[Documentation](/) / [Knowledge Base](/kb)</small>
 
 # Certificate lifetime management and best practice
 
@@ -44,11 +44,11 @@ By nature of the fully managed platform, Enclave is able to overcome the drive t
 
 In short, for public infrastructure exposing TLS endpoints, short-lived certificates should be adopted wherever possible. Systems connected privately via Enclave can, and should confidently deploy perpetually issued certificates
 
-## License constraints
+## Enrolment key constraints
 
-In order to issue a certificate to an enrolling system, a licence key must first be created in the Portal. Licence keys created without a configured `By Certificate Validity Period` constraint will, by default, issue certificates that are valid in perpetuity.
+In order to issue a certificate to an enrolling system, an Enrolment Key must first be created in the Portal. Enrolment Keys created without a configured `Validity Period` constraint will, by default, issue certificates that are valid in perpetuity.
 
-Licence keys created with a `By Certificate Validity Period` constraint will remain valid from the time when the license key is used, for the expressed duration of the constraint. That is to say, if a `Single Use` license key were created on the 1st of January, with a `By Certificate Validity Period` constraint of 7 days, and remained unused until the 1st of February then - at the time of use - the resulting certificate would be valid for 7 days from the 1st of February.
+Enrolment Keys created with a `Validity Period` constraint will remain valid from the time when the Enrolment Key is used, for the expressed duration of the constraint. That is to say, if a `Single Use` Enrolment Key were created on the 1st of January, with a `Validity Period` constraint of 7 days, and remained unused until the 1st of February then - at the time of use - the resulting certificate would be valid for 7 days from the 1st of February.
 
 Short-lived, or fixed lifetime certificates are an ideal way to interact with the partners, the supply chain or contractors where an engagement or project has a fixed duration and the connection must not persist beyond a fixed point in time.
 
@@ -58,3 +58,9 @@ Short-lived, or fixed lifetime certificates are an ideal way to interact with th
 * [Short-Lived Certificates @ Netflix](https://medium.facilelogin.com/short-lived-certificates-netflix-fd5f3ae5bc9) (medium.facilelogin.com)
 * [Why bother with short-lived certificates and keys in TLS?](https://unmitigatedrisk.com/?p=584) (unmitigatedrisk.com)
 * [Good certificates die young: what's passive revocation and how's it implemented?](https://smallstep.com/blog/passive-revocation/) (smallstep.com)
+
+---
+
+Having problems? Contact us at [support@enclave.io](mailto:support@enclave.io) or ask for help in our [community support](/community-support/) channels.
+
+<small>Last updated Aug 19, 2021</small>
