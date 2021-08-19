@@ -1,0 +1,157 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* adjust font size
+.md-typeset {
+    font-size: .774rem;
+    line-height: 1.53;
+} */
+
+body, code, input, kbd, pre {
+    color: rgb(0 0 0 / 75%);
+}
+
+/* give the content some room to breathe */
+.md-content {
+    margin-bottom: 90px;
+}
+
+/* light border on primary sidebar */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    border-right: 1px solid #f5f5f5;
+}
+
+/* restore bottom margin */
+.md-content__inner>:last-child {
+    margin-bottom: inherit;
+}
+
+/* make [code] blocks stand out */
+.md-typeset code {
+    font-size: .8em;
+    padding: .15em .3em;
+    border-radius: 0;
+}
+
+/* increase tabbed set spacing */ 
+.md-typeset .tabbed-set {    
+    margin: 2em 0;
+}
+
+.md-typeset .tabbed-content {
+    padding: .5em 0 0 0;
+}
+
+.md-typeset ol li, .md-typeset ul li {
+    margin-bottom: .6em;
+}
+
+/* ensure images have room to breathe */
+.md-typeset img, .md-typeset svg {
+    margin: .4em 0;
+}
+
+/* reduce size of the blockquote text and left border */
+.md-typeset blockquote {
+    font-size: .88em;
+    margin: 2.4em 0 1em 0;
+}
+
+.md-typeset blockquote p {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.md-typeset blockquote p:first-child {
+    padding: 0;
+    margin: 0;
+}
+
+/* get the font in tables to a reasonable size */
+.md-typeset table:not([class]) {    
+    font-size: .68rem;
+}
+
+small {
+    font-size: 85%;
+    margin-bottom: 26px;
+}
+
+.download-container {
+    display: inline-block;
+    background-color: #f5f5f5;
+    padding: 24px 20px 8px 20px;
+    margin: 0 0 14px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.download-container button {    
+    margin: 0;
+    padding: 12px 30px;
+    background-color: #71A9F7;
+    color: #fff;
+    font-family: "Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace;
+    font-size: .77em;
+    font-weight: 500;
+    letter-spacing: .03em;
+    transition: all .1s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.download-container button:hover {
+    background-color: #8DC5FF;
+}
+
+.download-container button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(127 183 255 / 40%);
+}
+
+.download-container .download-url {
+    font-size: 75%;
+    margin-bottom: 26px;
+}
+
+.checksum-container {
+    text-align: left;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.checksum-container p {
+    font-size: .76em;
+    margin: 0 !important;
+}
+
+.checksum-container .checksum {
+    font-size: .87em;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 5px 6px;
+    border-radius: 4px;
+    margin: 5px 0 12px 0;
+    display: block;
+    user-select: all;
+}
+
+.md-clipboard {
+    top: .4em;
+    right: .4em;
+}
+
+.screenshot {
+    text-align: center;    
+}
+
+.screenshot img {
+    box-shadow: 0px 0px 4px rgba(60, 64, 73, 0.01), 0px 4px 8px rgba(60, 64, 73, 0.06);
+}
