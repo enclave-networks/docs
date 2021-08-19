@@ -6,7 +6,7 @@ hide: toc
 
 Use Enclave to seamlessly connect your devices, systems, virtual machines and containers together on any infrastructure with secure private networks that *just work*.
 
-- [Tutorials](tutorials/)
+- [Tutorials](/tutorials/)
 - [Community support](/community-support/)
 - [Using our API](/api/)
 
